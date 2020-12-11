@@ -17,10 +17,23 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>归档 - Handsome Yankaqiu</title>
+  <title>Handsome Yankaqiu</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+    
+  
+
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -43,7 +56,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -147,6 +160,43 @@
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2020-10-12 11:12" pubdate>
+        2020年10月12日 上午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      464 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      6
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
           
@@ -157,67 +207,89 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 6 篇文章</p>
-  <hr>
-  
-    
       
-      <p class="h5">2020</p>
-    
-    <a href="/2020/12/11/%E5%B0%8F%E8%8F%9C%E9%B8%A1%E7%9A%84%E7%BD%91%E9%A1%B5%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB(1)/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title"></span>
-      <time style="float: right;">12-11</time>
-    </a>
-  
-    
-    <a href="/2020/10/16/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title"></span>
-      <time style="float: right;">10-16</time>
-    </a>
-  
-    
-    <a href="/2020/10/12/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E6%B8%90%E8%BF%9B%E8%AE%B0%E6%B3%95/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title"></span>
-      <time style="float: right;">10-12</time>
-    </a>
-  
-    
-    <a href="/2020/09/29/%E5%88%A9%E7%94%A8SSH%20push%20%E4%BB%A3%E7%A0%81%E5%88%B0%E4%BB%93%E5%BA%93/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title"></span>
-      <time style="float: right;">09-29</time>
-    </a>
-  
-    
-    <a href="/2020/09/16/%E6%95%B4%E6%95%B0%E5%92%8C%E6%B5%AE%E7%82%B9%E6%95%B0/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title"></span>
-      <time style="float: right;">09-16</time>
-    </a>
-  
-    
-    <a href="/2020/09/16/Java%E4%B8%ADstatic%E5%85%B3%E9%94%AE%E5%AD%97%E7%9A%84%E7%90%86%E8%A7%A3/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title"></span>
-      <time style="float: right;">09-16</time>
-    </a>
-  
-</div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto" id="post">
+            <!-- SEO header -->
+            <h1 style="display: none"></h1>
+            
+            <div class="markdown-body" id="post-body">
+              <h1 id="算法复杂度渐进记法"><a href="#算法复杂度渐进记法" class="headerlink" title="算法复杂度渐进记法"></a>算法复杂度渐进记法</h1><p>学习算法的时候对这几个符号总时感觉不大清楚，记录一下。</p>
+<h3 id="O记号"><a href="#O记号" class="headerlink" title="O记号"></a>O记号</h3><p>假设f(n)和g(n)的定义域是非负整数，存在两个正整数c和n0，使得n&gt;n0的时候，$f(n)≤c*g(n)$,则$f(n)=O(g(n))$。可见O(g(n))可以表示算法运行时间的上界。O(g(n))表示的函数集合的函数是阶数不超过g(n)的函数。</p>
+<p>例如：$f(n)=2n+2=O(n)$</p>
+<p>证明：当n&gt;1的时候，$2<em>n +1&lt;3n$，所以可选n0=1,c=3，则n&gt;n0的时候，$f(n)&lt;c</em>(n)$，所以f(n)=O(n)。</p>
+<p>现在再证明$f(n)=2*n+1=O(n^2)$</p>
+<p>证明：当n&gt;2的时候，$2<em>n+1&lt;2*n^2$，所以可选n0=2,c=2,则n&gt;n0的时候，$f(n)&lt;c</em>(n^2)$，所以$f(n)=O(n^2)$。</p>
+<p>同理可证$f(n)=O(n^a)$，a&gt;1</p>
+<h3 id="Ω记号"><a href="#Ω记号" class="headerlink" title="Ω记号"></a>Ω记号</h3><p>Ω记号与大O记号相反，他可以表示算法运行时间的下界。Ω(g(n))表示的函数集合的函数是所有阶数超过g(n)的函数。</p>
+<p>例如：$f(n)=n^2+2*n+2=Ω(n^2)$</p>
+<p>证明：当n&gt;4的时候，$2<em>n^2+3</em>n+2&gt;n^2$，所以可选n0=4,c=1,则n&gt;n0的时候，$f(n)&gt;c*(n^2)$，所以$f(n)=Ω(n^2)$。</p>
+<p>同理可证$f(n)=Ω(n)$,$f(n)=Ω(1)$</p>
+<h3 id="Θ记号"><a href="#Θ记号" class="headerlink" title="Θ记号"></a>Θ记号</h3><p>Θ记号介于大O记号和Ω记号之间。他表示，存在正常数c1,c2,n0，当n&gt;n0的时候，$c1<em>g(n)≤f(n)≤c2</em>g(n)$，则f(n)=Θ(g(n))。他表示所有阶数与g(n)相同的函数集合。</p>
+<h3 id="小o记号"><a href="#小o记号" class="headerlink" title="小o记号"></a>小o记号</h3><p>$f(n)=o(g(n))$当且仅当$f(n)=O(g(n))$且$f(n)≠Ω(g(n))$。也就是说小o记号可以表示时间复杂度的上界，但是一定不等于下界。</p>
 
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/10/16/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2020/09/29/%E5%88%A9%E7%94%A8SSH%20push%20%E4%BB%A3%E7%A0%81%E5%88%B0%E4%BB%93%E5%BA%93/">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
   </main>
 
@@ -299,6 +371,31 @@
 
 
 
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '#post-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
 
 
   <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
@@ -306,7 +403,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "归档&nbsp;",
+        "&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -321,6 +418,21 @@
 
 
 
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
 
 
   <script  src="/js/local-search.js" ></script>
@@ -334,6 +446,20 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
 
 
 

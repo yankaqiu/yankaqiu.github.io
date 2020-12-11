@@ -225,15 +225,17 @@
 </li>
 <li><p>static用途</p>
 <ol>
-<li><p><u><strong>修饰静态变量</strong></u>。（static绝对不可以修饰局部变量！）当不同对象的该变量相同时，可将该变量用static修饰，即定义为静态变量。</p>
-<ul>
-<li>静态变量与实例变量区别：<u>静态变量</u>存储在方法区内存中，在类加载时初始化（不需要创建对象，内存就开辟了）。可直接用”类名.“的方式访问。<u>实例变量</u>存储在栈内存中，一个Java对象有一份，属于Java对象，不同对象值不一定相同。只能通过对象才可以访问。</li>
-</ul>
+<li><u><strong>修饰静态变量</strong></u>。（static绝对不可以修饰局部变量！）当不同对象的该变量相同时，可将该变量用static修饰，即定义为静态变量。</li>
+</ol>
 </li>
+<li><p>静态变量与实例变量区别：<u>静态变量</u>存储在方法区内存中，在类加载时初始化（不需要创建对象，内存就开辟了）。可直接用”类名.“的方式访问。<u>实例变量</u>存储在栈内存中，一个Java对象有一份，属于Java对象，不同对象值不一定相同。只能通过对象才可以访问。</p>
+</li>
+</ul>
+<ol start="2">
 <li><p><u><strong>修饰静态方法</strong></u>。静态方法是属于类的，如main方法。可在没有创建对象的情况下调用。可用”类名.“的方式访问（也可采用引用的方式访问，但即使采用引用的方式，实际上执行的时候也和引用指向的对象无关）。</p>
 <ul>
 <li><p>在静态方法内部不能直接访问实例变量和实例方法（必须通过具体的对象），反过来是可以滴。      </p>
-<pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test01</span> </span>&#123;
+  <pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test01</span> </span>&#123;
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">name1</span><span class="hljs-params">(String name1)</span> </span>&#123;
         name2();<span class="hljs-comment">//编译报错，因未创建对象直接访问</span>
@@ -250,17 +252,15 @@
 </ul>
 </li>
 </ol>
-</li>
-</ul>
 <ol start="3">
 <li><p><u><strong>定义”静态代码块“</strong></u>。</p>
 <ul>
 <li><p>”静态代码块“语法格式：</p>
-<pre><code class="hljs static&#123;&#125;">static&#123;
+  <pre><code class="hljs static&#123;&#125;">static&#123;
       java语句
 &#125;</code></pre>
 
-<p>在类加载时执行，并只执行一次，在一个类中可编写多个，自上而下依次执行。常用来完成预备工作，数据的准备工作。</p>
+<p>  在类加载时执行，并只执行一次，在一个类中可编写多个，自上而下依次执行。常用来完成预备工作，数据的准备工作。</p>
 </li>
 </ul>
 </li>
