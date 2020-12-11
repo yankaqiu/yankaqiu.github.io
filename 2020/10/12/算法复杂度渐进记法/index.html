@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>整数和浮点数 - Handsome Yankaqiu</title>
+  <title>算法复杂度渐进记法 - Handsome Yankaqiu</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -165,8 +165,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-11 17:41" pubdate>
-        2020年12月11日 下午
+      <time datetime="2020-10-12 17:41" pubdate>
+        2020年10月12日 下午
       </time>
     </span>
   
@@ -177,7 +177,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      78 字
+      455 字
     </span>
   
 
@@ -187,7 +187,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      6
        分钟
     </span>
   
@@ -217,43 +217,22 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">整数和浮点数</h1>
+            <h1 style="display: none">算法复杂度渐进记法</h1>
             
             <div class="markdown-body" id="post-body">
-              <h3 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h3><ul>
-<li><p>编码方式</p>
-<ul>
-<li>原码</li>
-<li>反码</li>
-<li>补码（计算机内存中存储形式）</li>
-</ul>
-</li>
-<li><p>表示方式</p>
-<ul>
-<li>十进制</li>
-<li>八进制</li>
-<li>十六进制</li>
-</ul>
-</li>
-</ul>
-<h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><ul>
-<li><p>浮点格式</p>
-<ul>
-<li>单精度</li>
-<li>双精度</li>
-<li>精确度更高：java.math.BigDecimal</li>
-</ul>
-</li>
-<li><p>IEEE浮点表示</p>
-<ul>
-<li>符号</li>
-<li>尾数</li>
-<li>阶码</li>
-</ul>
-</li>
-<li><p>浮点数不能直接用==判等</p>
-</li>
-</ul>
+              <p>学习算法的时候对这几个符号总时感觉不大清楚，记录一下。</p>
+<h3 id="O记号"><a href="#O记号" class="headerlink" title="O记号"></a>O记号</h3><p>假设f(n)和g(n)的定义域是非负整数，存在两个正整数c和n0，使得n&gt;n0的时候，$f(n)≤c*g(n)$,则$f(n)=O(g(n))$。可见O(g(n))可以表示算法运行时间的上界。O(g(n))表示的函数集合的函数是阶数不超过g(n)的函数。</p>
+<p>例如：$ f(n)=2n+2=O(n) $</p>
+<p>证明：当n&gt;1的时候，$2<em>n +1&lt;3n$，所以可选n0=1,c=3，则n&gt;n0的时候，$f(n)&lt;c</em>(n)$，所以f(n)=O(n)。</p>
+<p>现在再证明$ f(n)=2*n+1=O(n^2) $</p>
+<p>证明：当n&gt;2的时候，$2<em>n+1&lt;2*n^2$，所以可选n0=2,c=2,则n&gt;n0的时候，$f(n)&lt;c</em>(n^2)$，所以$ f(n)=O(n^2) $。</p>
+<p>同理可证$ f(n)=O(n^a) $，a&gt;1</p>
+<h3 id="Ω记号"><a href="#Ω记号" class="headerlink" title="Ω记号"></a>Ω记号</h3><p>Ω记号与大O记号相反，他可以表示算法运行时间的下界。Ω(g(n))表示的函数集合的函数是所有阶数超过g(n)的函数。</p>
+<p>例如：$f(n)=n^2+2*n+2=Ω(n^2)$</p>
+<p>证明：当n&gt;4的时候，$2<em>n^2+3</em>n+2&gt;n^2$，所以可选n0=4,c=1,则n&gt;n0的时候，$f(n)&gt;c*(n^2)$，所以$f(n)=Ω(n^2)$。</p>
+<p>同理可证$f(n)=Ω(n)$,$f(n)=Ω(1)$</p>
+<h3 id="Θ记号"><a href="#Θ记号" class="headerlink" title="Θ记号"></a>Θ记号</h3><p>Θ记号介于大O记号和Ω记号之间。他表示，存在正常数c1,c2,n0，当n&gt;n0的时候，$c1<em>g(n)≤f(n)≤c2</em>g(n)$，则f(n)=Θ(g(n))。他表示所有阶数与g(n)相同的函数集合。</p>
+<h3 id="小o记号"><a href="#小o记号" class="headerlink" title="小o记号"></a>小o记号</h3><p>$f(n)=o(g(n))$当且仅当$f(n)=O(g(n))$且$f(n)≠Ω(g(n))$。也就是说小o记号可以表示时间复杂度的上界，但是一定不等于下界。</p>
 
             </div>
             <hr>
@@ -271,7 +250,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">基础知识</a>
+                      <a class="hover-with-bg" href="/tags/%E7%AE%97%E6%B3%95/">算法</a>
                     
                   </div>
                 
@@ -284,9 +263,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2020/12/11/%E5%88%A9%E7%94%A8SSH%20push%20%E4%BB%A3%E7%A0%81%E5%88%B0%E4%BB%93%E5%BA%93/">
+                      <a href="/2020/12/11/%E6%95%B4%E6%95%B0%E5%92%8C%E6%B5%AE%E7%82%B9%E6%95%B0/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">利用SSH push 代码到仓库</span>
+                        <span class="hidden-mobile">整数和浮点数</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -294,8 +273,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2020/10/12/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E6%B8%90%E8%BF%9B%E8%AE%B0%E6%B3%95/">
-                        <span class="hidden-mobile">算法复杂度渐进记法</span>
+                      <a href="/2020/10/09/%E5%B0%8F%E8%8F%9C%E9%B8%A1%E7%9A%84%E7%BD%91%E9%A1%B5%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB(1)/">
+                        <span class="hidden-mobile">小菜鸡的网页学习分享（1）</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -438,7 +417,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "整数和浮点数&nbsp;",
+        "算法复杂度渐进记法&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
