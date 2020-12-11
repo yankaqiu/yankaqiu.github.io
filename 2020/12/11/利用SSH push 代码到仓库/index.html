@@ -17,10 +17,23 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>分类 - Handsome Yankaqiu</title>
+  <title>利用SSH push 代码到仓库 - Handsome Yankaqiu</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+    
+  
+
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -43,7 +56,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -147,6 +160,43 @@
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2020-12-11 17:41" pubdate>
+        2020年12月11日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      86 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      1
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
           
@@ -157,119 +207,100 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto" id="post">
+            <!-- SEO header -->
+            <h1 style="display: none">利用SSH push 代码到仓库</h1>
+            
+            <div class="markdown-body" id="post-body">
+              <h3 id="首先配置SSH-KEY"><a href="#首先配置SSH-KEY" class="headerlink" title="首先配置SSH　KEY"></a>首先配置SSH　KEY</h3><p>具体可以参考这篇博客：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/c9aa544a11d3">https://www.jianshu.com/p/c9aa544a11d3</a></p>
+<h3 id="然后在terminal中"><a href="#然后在terminal中" class="headerlink" title="然后在terminal中"></a>然后在terminal中</h3><pre class=" language-hljs awk"><span class="hljs-regexp"><code class="language-hljs awk"><span class="hljs-regexp">//gi</span>t remote add XXX SSH ....
+git remote add ykq git@github.com:twtstudio/WePeiYang-Android.git
+<span class="hljs-regexp">//gi</span>t branch<span class="hljs-regexp">//</span>查看分支
+* announcement</code></pre>
 
+<p>然后可以用</p>
+<pre class=" language-hljs ebnf"><span class="hljs-attribute"><code class="language-hljs ebnf"><span class="hljs-attribute">git status -s</span></code></pre>
 
+<p>查看是否已经add</p>
+<p>然后</p>
+<pre class=" language-hljs nginx"><span class="hljs-attribute">git</span> commit -m <span class="hljs-string"><code class="language-hljs nginx"><span class="hljs-attribute">git</span> commit -m <span class="hljs-string">"做了个人页面"</span></code></pre>
 
+<pre class=" language-hljs armasm"><span class="hljs-symbol">git</span> <span class="hljs-keyword"><code class="language-hljs armasm"><span class="hljs-symbol">git</span> <span class="hljs-keyword">push</span> ykq announcement</code></pre>
 
+<p>完成</p>
 
-
-<div class="category-list">
-  
-  
-  
-  
-    
-    
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
-        id="heading-ckik3bzm10004cgvmf3t42dth" role="tab" data-toggle="collapse" href="#collapse-ckik3bzm10004cgvmf3t42dth"
-        aria-expanded="false"
-      >
-        -编程
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      <a href="/categories/%E7%BC%96%E7%A8%8B/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>3</span>
-      </a>
-      <div class="category-collapse">
-        
-          
-  <div id="collapse-ckik3bzm10004cgvmf3t42dth" class="collapse in" role="tabpanel"
-       aria-labelledby="heading-ckik3bzm10004cgvmf3t42dth">
-    
-    
-    
-      
-      
-        <a href="/2020/12/11/%E6%95%B4%E6%95%B0%E5%92%8C%E6%B5%AE%E7%82%B9%E6%95%B0/" class="list-group-item list-group-item-action">
-          <span class="category-post">整数和浮点数</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2020/10/12/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E6%B8%90%E8%BF%9B%E8%AE%B0%E6%B3%95/" class="list-group-item list-group-item-action">
-          <span class="category-post">算法复杂度渐进记法</span>
-        </a>
-      
-    
-      
-      
-        <a href="/2020/09/16/Java%E4%B8%ADstatic%E5%85%B3%E9%94%AE%E5%AD%97%E7%9A%84%E7%90%86%E8%A7%A3/" class="list-group-item list-group-item-action">
-          <span class="category-post">Java中static关键字的理解</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
-        id="heading-ckik3bzm4000acgvm4v367ivq" role="tab" data-toggle="collapse" href="#collapse-ckik3bzm4000acgvm4v367ivq"
-        aria-expanded="false"
-      >
-        -工具
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      <a href="/categories/%E5%B7%A5%E5%85%B7/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>1</span>
-      </a>
-      <div class="category-collapse">
-        
-          
-  <div id="collapse-ckik3bzm4000acgvm4v367ivq" class="collapse in" role="tabpanel"
-       aria-labelledby="heading-ckik3bzm4000acgvm4v367ivq">
-    
-    
-    
-      
-      
-        <a href="/2020/12/11/%E5%88%A9%E7%94%A8SSH%20push%20%E4%BB%A3%E7%A0%81%E5%88%B0%E4%BB%93%E5%BA%93/" class="list-group-item list-group-item-action">
-          <span class="category-post">利用SSH push 代码到仓库</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-</div>
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%B7%A5%E5%85%B7/">-工具</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/git/">-git</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2020/12/11/dd-md/">
+                        <span class="hidden-mobile">dd.md</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
   </main>
 
@@ -351,6 +382,31 @@
 
 
 
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '#post-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
 
 
   <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
@@ -358,7 +414,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "分类&nbsp;",
+        "利用SSH push 代码到仓库&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -373,6 +429,21 @@
 
 
 
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
 
 
   <script  src="/js/local-search.js" ></script>
@@ -386,6 +457,20 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
 
 
 
