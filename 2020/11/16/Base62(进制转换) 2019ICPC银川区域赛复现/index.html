@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>整数和浮点数 - Handsome Yankaqiu</title>
+  <title>Base62(进制转换) 2019ICPC银川区域赛复现 - Handsome Yankaqiu</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -165,8 +165,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-11 17:41" pubdate>
-        2020年12月11日 下午
+      <time datetime="2020-11-16 17:41" pubdate>
+        2020年11月16日 下午
       </time>
     </span>
   
@@ -177,7 +177,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      78 字
+      115 字
     </span>
   
 
@@ -217,43 +217,76 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">整数和浮点数</h1>
+            <h1 style="display: none">Base62(进制转换) 2019ICPC银川区域赛复现</h1>
             
             <div class="markdown-body" id="post-body">
-              <h3 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h3><ul>
-<li><p>编码方式</p>
-<ul>
-<li>原码</li>
-<li>反码</li>
-<li>补码（计算机内存中存储形式）</li>
-</ul>
-</li>
-<li><p>表示方式</p>
-<ul>
-<li>十进制</li>
-<li>八进制</li>
-<li>十六进制</li>
-</ul>
-</li>
-</ul>
-<h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><ul>
-<li><p>浮点格式</p>
-<ul>
-<li>单精度</li>
-<li>双精度</li>
-<li>精确度更高：java.math.BigDecimal</li>
-</ul>
-</li>
-<li><p>IEEE浮点表示</p>
-<ul>
-<li>符号</li>
-<li>尾数</li>
-<li>阶码</li>
-</ul>
-</li>
-<li><p>浮点数不能直接用==判等</p>
-</li>
-</ul>
+              <p>高精度进制转换：给你三个数x , y ,z。将一个 x 进制的数 z 转化为 y 进制。其中’0’ – ‘9’ 代表0 − 9 ,  ‘A’ – ‘Z’ 代表10 − 35 , ‘a’ – ‘z’ 代表36 − 61。</p>
+<pre class=" language-hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><code class="language-hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><iostream></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><algorithm></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string"><iomanip></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><queue></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><cstdio></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><map></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><cmath></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><cstring></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><string></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><math.h></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string"><string.h></span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> Maxn 370</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> ll long long</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> INF 0x3f3f3f3f</span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
+
+<span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> MAXN = <span class="hljs-number">1500</span>;
+<span class="hljs-keyword">int</span> x, y;
+<span class="hljs-keyword">char</span> s[MAXN], ans[MAXN];
+<span class="hljs-keyword">int</span> t[MAXN], res[MAXN];
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">getnum</span><span class="hljs-params">(<span class="hljs-keyword">char</span> c)</span><span class="hljs-comment">//将字符转化为数字</span></span>
+<span class="hljs-function"></span>&#123;
+    <span class="hljs-keyword">if</span>(c >= <span class="hljs-string">&#x27;0&#x27;</span> && c <= <span class="hljs-string">&#x27;9&#x27;</span>) <span class="hljs-keyword">return</span> c - <span class="hljs-string">&#x27;0&#x27;</span>;
+    <span class="hljs-keyword">if</span>(c >= <span class="hljs-string">&#x27;A&#x27;</span> && c <= <span class="hljs-string">&#x27;Z&#x27;</span>) <span class="hljs-keyword">return</span> c - <span class="hljs-string">&#x27;A&#x27;</span> + <span class="hljs-number">10</span>;
+    <span class="hljs-keyword">else</span> <span class="hljs-keyword">return</span> c - <span class="hljs-string">&#x27;a&#x27;</span> + <span class="hljs-number">36</span>;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">char</span> <span class="hljs-title">getch</span><span class="hljs-params">(<span class="hljs-keyword">int</span> num)</span><span class="hljs-comment">//将数字转化为字符</span></span>
+<span class="hljs-function"></span>&#123;
+    <span class="hljs-keyword">if</span>(num <= <span class="hljs-number">9</span>) <span class="hljs-keyword">return</span> num + <span class="hljs-string">&#x27;0&#x27;</span>;
+    <span class="hljs-keyword">if</span>(num <= <span class="hljs-number">35</span>) <span class="hljs-keyword">return</span> num + <span class="hljs-string">&#x27;A&#x27;</span> - <span class="hljs-number">10</span>;
+    <span class="hljs-keyword">else</span> <span class="hljs-keyword">return</span> num + <span class="hljs-string">&#x27;a&#x27;</span> - <span class="hljs-number">36</span>;
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span></span>
+<span class="hljs-function"></span>&#123;
+    <span class="hljs-keyword">int</span> len=<span class="hljs-built_in">strlen</span>(s+<span class="hljs-number">1</span>);
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=<span class="hljs-number">1</span>;i<=len;i++)
+        t[i]=getnum(s[i]);
+    <span class="hljs-keyword">int</span> k=<span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> j=<span class="hljs-number">1</span>;j<=len;)<span class="hljs-comment">//j为当前最高位</span>
+    &#123;
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=j;i<len;i++)
+        &#123;
+            t[i+<span class="hljs-number">1</span>]+=t[i]%y*x;
+            t[i]/=y;
+        &#125;
+        res[++k]=t[len]%y;
+        t[len]/=y;
+        <span class="hljs-keyword">while</span>(j<=len && !t[j])
+            j++;
+    &#125;
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i=<span class="hljs-number">1</span>;i<=k;i++)
+        ans[i]=getch(res[k-i+<span class="hljs-number">1</span>]);<span class="hljs-comment">//倒序输出</span>
+&#125;
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>
+<span class="hljs-function"></span>&#123;
+    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d%d%s"</span>, &x, &y, s+<span class="hljs-number">1</span>);
+    solve();
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%s\n"</span>, ans+<span class="hljs-number">1</span>);
+&#125;
+</code></pre>
+
+<p>进制转换问题利用短除法：重复记录z % y 的值，并且将 z / y 。将得到的余数序列倒序输出即可。对于高精度取模，可以从高位算起依次将这一位对y的余数给到后一位。</p>
 
             </div>
             <hr>
@@ -263,7 +296,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a>
+                      <a class="hover-with-bg" href="/categories/ACM-%E7%AE%97%E6%B3%95/">ACM 算法</a>
                     
                   </div>
                 
@@ -271,7 +304,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">基础知识</a>
+                      <a class="hover-with-bg" href="/tags/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/">进制转换</a>
                     
                   </div>
                 
@@ -284,9 +317,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2020/12/11/%E5%88%A9%E7%94%A8SSH%20push%20%E4%BB%A3%E7%A0%81%E5%88%B0%E4%BB%93%E5%BA%93/">
+                      <a href="/2020/12/11/%E6%95%B4%E6%95%B0%E5%92%8C%E6%B5%AE%E7%82%B9%E6%95%B0/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">利用SSH push 代码到仓库</span>
+                        <span class="hidden-mobile">整数和浮点数</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -294,8 +327,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2020/11/16/Base62(%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2)%202019ICPC%E9%93%B6%E5%B7%9D%E5%8C%BA%E5%9F%9F%E8%B5%9B%E5%A4%8D%E7%8E%B0/">
-                        <span class="hidden-mobile">Base62(进制转换) 2019ICPC银川区域赛复现</span>
+                      <a href="/2020/11/16/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
+                        <span class="hidden-mobile">Java设计模式</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -438,7 +471,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "整数和浮点数&nbsp;",
+        "Base62(进制转换) 2019ICPC银川区域赛复现&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
