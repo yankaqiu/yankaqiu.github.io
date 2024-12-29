@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>ETH Zürich</a>. Address. jingyan@ethz.ch. Motto. Etc.
 
 profile:
   align: right
