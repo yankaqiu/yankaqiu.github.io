@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>ETH Zürich</a>. Address. jingyan@ethz.ch. Motto. Etc.
+subtitle: <a href='#'>ETH Zürich</a>. jingyan@ethz.ch.
 
 profile:
   align: right
@@ -10,11 +10,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p></p>
-    <p></p>
+    <p>jingyan@ethz.ch</p>
     <p>Zürich</p>
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
