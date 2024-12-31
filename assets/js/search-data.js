@@ -65,18 +65,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
-      
-        title: "a post with image galleries",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -85,17 +74,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-        
-      },
-    },{id: "post-a-post-with-tabs",
-      
-        title: "a post with tabs",
-      
-      description: "this is what included tabs in a post could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/tabs/";
         
       },
     },{id: "post-a-post-with-typograms",
@@ -107,6 +85,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/typograms/";
+        
+      },
+    },{id: "post-运动给我带来了什么",
+      
+        title: "运动给我带来了什么",
+      
+      description: "幸亏运动给糟糕的生活提供掩耳盗铃的尊严",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/";
         
       },
     },{id: "post-a-post-that-can-be-cited",
@@ -206,17 +195,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/tikzjax/";
-        
-      },
-    },{id: "post-a-post-with-bibliography",
-      
-        title: "a post with bibliography",
-      
-      description: "an example of a blog post with bibliography",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/post-bibliography/";
         
       },
     },{id: "post-a-post-with-jupyter-notebook",
@@ -329,92 +307,15 @@ ninja.data = [{
           window.location.href = "/assets/pdf/example_pdf.pdf";
         
       },
-    },{id: "post-a-post-with-diagrams",
+    },{id: "post-小菜鸡的网页学习分享-1",
       
-        title: "a post with diagrams",
+        title: "小菜鸡的网页学习分享（1）",
       
       description: "an example of a blog post with diagrams",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/blog/2021/diagrams/";
-        
-      },
-    },{id: "post-a-distill-style-blog-post",
-      
-        title: "a distill-style blog post",
-      
-      description: "an example of a distill-style blog post and main elements",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2021/distill/";
-        
-      },
-    },{id: "post-a-post-with-twitter",
-      
-        title: "a post with twitter",
-      
-      description: "an example of a blog post with twitter",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2020/twitter/";
-        
-      },
-    },{id: "post-a-post-with-disqus-comments",
-      
-        title: "a post with disqus comments",
-      
-      description: "an example of a blog post with disqus comments",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/disqus-comments/";
-        
-      },
-    },{id: "post-a-post-with-math",
-      
-        title: "a post with math",
-      
-      description: "an example of a blog post with some math",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/math/";
-        
-      },
-    },{id: "post-a-post-with-code",
-      
-        title: "a post with code",
-      
-      description: "an example of a blog post with some code",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/code/";
-        
-      },
-    },{id: "post-a-post-with-images",
-      
-        title: "a post with images",
-      
-      description: "this is what included images could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/images/";
-        
-      },
-    },{id: "post-a-post-with-formatting-and-links",
-      
-        title: "a post with formatting and links",
-      
-      description: "march &amp; april, looking forward to summer",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/formatting-and-links/";
         
       },
     },{id: "news-a-simple-inline-announcement",

@@ -1,17 +1,431 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> a post with diagrams | Jing Yan </title> <meta name="author" content="Jing Yan"> <meta name="description" content="an example of a blog post with diagrams"> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://yankaqiu.github.io/blog/2021/diagrams/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> 小菜鸡的网页学习分享（1） | Jing Yan </title> <meta name="author" content="Jing Yan"> <meta name="description" content="an example of a blog post with diagrams"> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://yankaqiu.github.io/blog/2021/diagrams/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Jing</span> Yan </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">cv </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">people </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/publications/">publications</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/projects/">projects</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/blog/">blog</a> </div> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">a post with diagrams</h1> <p class="post-meta"> Created in July 04, 2021 </p> <p class="post-tags"> <a href="/blog/2021"> <i class="fa-solid fa-calendar fa-sm"></i> 2021 </a>   ·   <a href="/blog/tag/formatting"> <i class="fa-solid fa-hashtag fa-sm"></i> formatting</a>   <a href="/blog/tag/diagrams"> <i class="fa-solid fa-hashtag fa-sm"></i> diagrams</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <p>This theme supports generating various diagrams from a text description using <a href="https://mermaid-js.github.io/mermaid/" target="\_blank" rel="external nofollow noopener">mermaid</a>. Previously, this was done using the <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank" rel="external nofollow noopener">jekyll-diagrams</a> plugin. For more information on this matter, see the <a href="https://github.com/alshedivat/al-folio/issues/1609#issuecomment-1656995674" rel="external nofollow noopener" target="_blank">related issue</a>. To disable the zooming feature, set <code class="language-plaintext highlighter-rouge">mermaid.zoomable</code> to <code class="language-plaintext highlighter-rouge">false</code> in this post frontmatter.</p> <h2 id="mermaid">Mermaid</h2> <p>The diagram below was generated by the following code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">mermaid
-</span><span class="sb">sequenceDiagram
-    participant John
-    participant Alice
-    Alice-&gt;&gt;John: Hello John, how are you?
-    John--&gt;&gt;Alice: Great!</span>
-<span class="p">```</span>
-</code></pre></div></div> <pre><code class="language-mermaid">sequenceDiagram
-    participant John
-    participant Alice
-    Alice-&gt;&gt;John: Hello John, how are you?
-    John--&gt;&gt;Alice: Great!
-</code></pre> </div> </article> <br> <hr> <br> <ul class="list-disc pl-8"></ul> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/photo-gallery/">a post with image galleries</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/tabs/">a post with tabs</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/typograms/">a post with typograms</a> </li> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2024 Jing Yan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10.7.0/dist/mermaid.min.js" integrity="sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js" integrity="sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw=" crossorigin="anonymous"></script> <script defer src="/assets/js/mermaid-setup.js?38ca0a0126f7328d2d9a46bad640931f" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?70d799092f862ad98c7876aa47712e20"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Jing</span> Yan </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">cv </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">people </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/publications/">publications</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/projects/">projects</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/blog/">blog</a> </div> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">小菜鸡的网页学习分享（1）</h1> <p class="post-meta"> Created in July 04, 2021 </p> <p class="post-tags"> <a href="/blog/2021"> <i class="fa-solid fa-calendar fa-sm"></i> 2021 </a>   ·   <a href="/blog/tag/web"> <i class="fa-solid fa-hashtag fa-sm"></i> web</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <h1 id="小菜鸡的网页学习分享1">小菜鸡的网页学习分享（1）</h1> <p>我先简单介绍一下我做的两个网页：</p> <p>一个主界面，一个详细界面。</p> <p>我这两个网页主要是用CSS来实现的，少部分用到js，我暂时学的也是比较基础的部分，想要做出优秀的网页还有很长的一段路要走。</p> <h3 id="homehtml">Home.html</h3> <p><img src="C:\Users\%E5%B8%85%E6%B0%94%E9%80%BC%E4%BA%BA%E7%9A%84%E9%97%AB%E5%8D%A1%E4%B8%98\Desktop\%E9%97%AB%E7%92%9F-Wiki%E8%80%83%E6%A0%B8-3019244290\Home1.PNG" alt=""></p> <p>这是主网页的开头部分，顶端的目录鼠标移动至上面会出现下拉菜单：</p> <p><img src="C:\Users\%E5%B8%85%E6%B0%94%E9%80%BC%E4%BA%BA%E7%9A%84%E9%97%AB%E5%8D%A1%E4%B8%98\Desktop\%E9%97%AB%E7%92%9F-Wiki%E8%80%83%E6%A0%B8-3019244290\Home2.PNG" alt=""></p> <p>那就先说这个下拉菜单如何实现的。本来我写过一版纯自实现的navbar，最终这一版navbar是基于bootstrap4写的（关于bootstrap4的介绍和使用有相关的</p> <p>和中文网站（还是看英文的吧），以及</p> <p>可找到和借鉴一些基础的模板），这样稍微简洁了些，再用css写一些样式即可。</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body</span> <span class="na">data-spy=</span><span class="s">"scroll"</span> <span class="na">data-target=</span><span class="s">"#navbar-example3"</span> <span class="na">data-offset=</span><span class="s">"60"</span> <span class="na">class=</span><span class="s">"scrollspy-example-2"</span> <span class="na">style=</span><span class="s">"position:relative;overflow:auto"</span> <span class="na">id=</span><span class="s">"content"</span><span class="nt">&gt;</span>
+
+
+    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-expand-md fixed-top"</span> <span class="na">style=</span><span class="s">"box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;background-color:rgb(255, 255, 255);"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand col-2 mt-2"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;img</span> <span class="na">style=</span><span class="s">"height: 70px;position: fixed;top:0.5%"</span> <span class="na">src=</span><span class="s">"../images/捕获.PNG"</span><span class="nt">&gt;&lt;/img&gt;&lt;/a&gt;</span>
+        
+        <span class="c">&lt;!--下拉导航--&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"navbar-toggler"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">"#navbarSupportedContent"</span> <span class="na">aria-controls=</span><span class="s">"navbarSupportedContent"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-label=</span><span class="s">"Toggle navigation"</span>
+        <span class="na">style=</span><span class="s">"padding-top: 6px;
+        padding-bottom: 6px;
+        border: 1px solid black;
+           border-radius: 0;
+           float: right;"</span><span class="nt">&gt;</span>
+            <span class="c">&lt;!--按钮里的内容,三条横杠--&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+    
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse "</span> <span class="na">style=</span><span class="s">"margin-left: 11%; margin-top: 0.8%;font-size: 17px;"</span> <span class="na">id=</span><span class="s">"navbarSupportedContent"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"navbar-nav mr-auto"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item active"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"/Home.html"</span><span class="nt">&gt;</span>Home <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>(current)<span class="nt">&lt;/span&gt;&lt;/a&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarProject"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Project
+                    <span class="nt">&lt;/a&gt;</span>
+    
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"/Description.html"</span><span class="nt">&gt;</span>Description<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Design<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Model<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Safety<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Demonstrate<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarResults"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Experiment
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Notebook<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Results<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarParts"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Parts
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Overview<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Part Collection<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Improved Parts<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Measurement<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarHuman"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Human
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Human Practice<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>HP Supplement<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Collaborations<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarTeam"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Team
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Team<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Attributions<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+    
+            <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span>    
+</code></pre></div></div> <p>内含的基础知识：</p> <blockquote> <p>html属性和元素</p> <ul> <li> <p>在html代码里，class为类，我们可以为不同的类设置不同的样式。HTML <code class="language-plaintext highlighter-rouge">&lt;div&gt; </code>元素是<em>块级元素</em>。它能够用作其他 HTML 元素的容器。设置 &lt;div&gt; 元素的类，使我们能够为相同的 <code class="language-plaintext highlighter-rouge">&lt;div&gt; </code>元素设置相同的类。</p> </li> <li> <p><code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code>标签定义导航链接的容器。</p> </li> <li> <p>无序列表是一个项目的列表，此列项目使用粗体圆点（典型的小黑圆圈）进行标记。无序列表始于 <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> 标签。每个列表项始于<code class="language-plaintext highlighter-rouge"> &lt;li&gt;</code>。</p> </li> <li> <p>有序列表始于 <code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code> 标签。每个列表项始于 <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> 标签。</p> </li> <li> <p>通过使用<code class="language-plaintext highlighter-rouge"> &lt;a&gt;</code> 标签在 HTML 中创建链接。</p> <p>有两种使用<code class="language-plaintext highlighter-rouge"> &lt;a&gt;</code> 标签的方式：</p> <ol> <li>通过使用 href 属性 - 创建指向另一个文档的链接</li> <li>通过使用 name 属性 - 创建文档内的书签</li> </ol> <p>超链接可以是一个字，一个词，或者一组词，也可以是一幅图像，您可以点击这些内容来跳转到新的文档或者当前文档中的某个部分。</p> </li> </ul> </blockquote> <p><code class="language-plaintext highlighter-rouge">&lt;style&gt;</code>内CSS代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.navbar-light</span> <span class="nc">.navbar-brand</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0.9</span><span class="p">);</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="m">600</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.navbar-toggler-icon</span><span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span><span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.navbar-toggler</span><span class="p">{</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.nav-pills</span> <span class="nc">.nav-link.active</span><span class="o">,</span> <span class="nc">.nav-pills</span> <span class="nc">.show</span> <span class="o">&gt;</span> <span class="nc">.nav-link</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">250</span><span class="p">,</span><span class="m">226</span><span class="p">,</span><span class="m">180</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">0</span> <span class="m">.3rem</span> <span class="m">.5rem</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">.15</span><span class="p">)</span><span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.navbar-toggler</span><span class="p">{</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="nt">li</span><span class="nd">:hover</span> <span class="nc">.dropdown-menu</span> <span class="p">{</span>
+      <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nc">.dropdown-menu</span> <span class="p">{</span>
+  <span class="nl">top</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:link</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:visited</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:hover</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:active</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;}</span>
+
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:link</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:visited</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:hover</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:active</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;}</span>
+
+<span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">104</span><span class="p">,</span><span class="m">88</span><span class="p">,</span><span class="m">91</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.dropdown-item</span><span class="nd">:hover</span><span class="o">,</span> <span class="nc">.dropdown-item</span><span class="nd">:focus</span> <span class="p">{</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">243</span><span class="p">,</span> <span class="m">237</span><span class="p">,</span> <span class="m">238</span><span class="p">,</span> <span class="m">0.473</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.dropdown-item.active</span><span class="o">,</span> <span class="nc">.dropdown-item</span><span class="nd">:active</span> <span class="p">{</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="m">#007bff</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">a</span><span class="nc">.nav-link</span><span class="p">{</span>
+<span class="nl">padding</span><span class="p">:</span><span class="m">2px</span> <span class="m">20px</span><span class="p">;</span>
+<span class="nl">margin</span><span class="p">:</span> <span class="m">0.5rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div> <p>基础知识：</p> <p>CSS选择器（类选择器、ID选择器、可结合）</p> <p>接下来介绍轮播图（基于bootstrap4.5.0编写的，用css写了淡入淡出效果），但是最近学习 到用jQuery可以写出更丰富的轮播图，若使用可以再改进！：</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--轮播图--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"containerr"</span> <span class="na">id=</span><span class="s">"allCarousel"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"Carousel"</span> <span class="na">class=</span><span class="s">"carousel slide carousel-fade"</span> <span class="na">data-ride=</span><span class="s">"carousel"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!--指示符--&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"list-style-type: none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#Carousel"</span> <span class="na">data-slide-to=</span><span class="s">"0"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;&lt;/ul&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"list-style-type: none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#Carousel"</span> <span class="na">data-slide-to=</span><span class="s">"1"</span><span class="nt">&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;&lt;/ul&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"list-style-type: none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#Carousel"</span> <span class="na">data-slide-to=</span><span class="s">"2"</span><span class="nt">&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="c">&lt;!--轮播图片--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-inner"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-item active"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/index2.jpg"</span> <span class="na">alt=</span><span class="s">"First slide"</span> <span class="na">class=</span><span class="s">"d-block w-100"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption d-done d-md-block"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h1&gt;</span>2020 IGEM<span class="nt">&lt;/h1&gt;</span>
+                <span class="nt">&lt;h5&gt;</span>TJU 2020<span class="nt">&lt;/h5&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-item"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/index.jpg"</span> <span class="na">alt=</span><span class="s">"Second slide"</span> <span class="na">class=</span><span class="s">"d-block w-100"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption d-done d-md-block"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h1&gt;</span>2020 IGEM<span class="nt">&lt;/h1&gt;</span>
+                <span class="nt">&lt;h5&gt;</span>TJU 2020<span class="nt">&lt;/h5&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-item"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/index3.jpg"</span> <span class="na">alt=</span><span class="s">"Third slide"</span> <span class="na">class=</span><span class="s">"d-block w-100"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption d-done d-md-block"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h1&gt;</span>2020 IGEM<span class="nt">&lt;/h1&gt;</span>
+                <span class="nt">&lt;h5&gt;</span>TJU 2020<span class="nt">&lt;/h5&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="c">&lt;!--左右切换按钮--&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"carousel-control-prev"</span> <span class="na">href=</span><span class="s">"#Carousel"</span> <span class="na">data-slide=</span><span class="s">"prev"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"carousel-control-prev-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"carousel-control-next"</span> <span class="na">href=</span><span class="s">"#Carousel"</span> <span class="na">data-slide=</span><span class="s">"next"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"carousel-control-next-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <blockquote> <p><code class="language-plaintext highlighter-rouge">&lt;span&gt;</code> 元素是行内元素，能够用作文本的容器。</p> <p>设置 <code class="language-plaintext highlighter-rouge">&lt;span&gt; </code>元素的类，能够为相同的 <code class="language-plaintext highlighter-rouge">&lt;span&gt; </code>元素设置相同的样式。</p> </blockquote> <p>CSS相关代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.carousel-inner</span> <span class="nt">img</span><span class="p">{</span>
+        <span class="nl">width</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+        <span class="nl">height</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+    <span class="p">}</span>
+
+<span class="c">/* bootstrap 轮播图淡入淡出 */</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item</span> <span class="p">{</span>
+    <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0</span><span class="p">);</span>
+    <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0</span><span class="p">);</span>
+    <span class="nl">transition-property</span><span class="p">:</span> <span class="n">opacity</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.active.carousel-item-left</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.active.carousel-item-right</span> <span class="p">{</span>
+    <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.active</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item-next.carousel-item-left</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item-prev.carousel-item-right</span> <span class="p">{</span>
+    <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div> <blockquote> <p>opacity属性指定了一个元素的透明度，opicity:1是完全不透明，0是完全透明，</p> <p>translateX()函数表示在二维平面上水平方向移动元素。</p> </blockquote> <p>接下来是将界面设置为左文字右图片。</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--下面分成四段，左文字右图片，设置背景色--&gt;</span>
+
+<span class="nt">&lt;div&gt;</span>                      
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight1"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight1.png"</span> <span class="na">width=</span><span class="s">"80%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right, #2f80ed,#56ccf2);;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 90%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm; text-align: justify;"</span><span class="nt">&gt;</span>
+                    PET is used extensively worldwide. However, the ability to enzymatically degrade PET, especially
+                highly crystallized PET, has been thought to be limited to a few hydrolase. <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #2f80ed,#56ccf2);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"height:100px"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-2"</span><span class="nt">&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right,#fbc7d4, #9796f0);"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 100%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm;text-align: justify;"</span><span class="nt">&gt;</span>
+                    Although IsPETase has the highest degradation activity of highly crystallized PET under mild
+                conditions of all PET-degrading enzymes reported to date, its low thermal stability limits its ability
+                for efficient and practical enzymatic degradation of PET. Considering the glass transition
+                temperature of PET is around 75°C, above which the polyester chain of PET performs in a high
+                elastic state where the degradation is promoted, thus, higher thermal stability will enable IsPETase
+                to degrade highly crystallized PET more efficiently. <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #fbc7d4, #9796f0);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight2.png"</span> <span class="na">width=</span><span class="s">"100%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight3.jpg"</span> <span class="na">width=</span><span class="s">"80%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right, #ffafbd,#ffc3a0);"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 85%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm;text-align: justify;"</span><span class="nt">&gt;</span>
+                    Basing on the structural information of IsPETase and the theory of rational design, we developed
+                    a series of protein engineering strategy using several IsPETase variants that were screened for high
+                    thermal stability to improve PET degradation activity. The designed structural modifications will
+                    then be further verified through a proper evaluation strategy.
+                    <span class="nt">&lt;/p&gt;</span> 
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #ffafbd,#ffc3a0);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    
+    <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"height:150px"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight4"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-2"</span><span class="nt">&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right, #ffe259,#ffa751);;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 90%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm;text-align: justify;"</span><span class="nt">&gt;</span>
+                    Our project can help to increase the possibility of achieving the biodegradation of highly
+                    crystallized PET under higher temperatures, contributing to solving the environmental and health
+                    problems caused by the abuse of PET. Moreover, the method of rational protein engineering to
+                    enhance the thermal stability of a target protein, can be effectively utilized in further applications.
+                    <span class="nt">&lt;/p&gt;</span>  
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #ffe259,#ffa751);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight4.jpg"</span> <span class="na">style=</span><span class="s">"float:right"</span> <span class="na">width=</span><span class="s">"80%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+            
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <p>CSS相关代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#top_title</span><span class="p">{</span>
+<span class="nl">display</span><span class="p">:</span><span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#content</span><span class="p">{</span>
+<span class="nl">margin</span><span class="p">:</span><span class="m">0</span><span class="p">;</span>
+<span class="nl">width</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">160</span><span class="p">,</span> <span class="m">160</span><span class="p">,</span> <span class="m">160</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+<span class="nl">font-size</span><span class="p">:</span><span class="m">20px</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">text-align</span><span class="p">:</span> <span class="nb">left</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-weight</span><span class="p">:</span><span class="m">350</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="nc">.h1</span><span class="p">{</span>
+    <span class="nl">font-size</span><span class="p">:</span><span class="m">90px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h4</span><span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span><span class="m">25px</span><span class="p">;</span>
+<span class="nl">line-height</span><span class="p">:</span><span class="m">26px</span><span class="p">;</span>
+<span class="nl">padding-top</span><span class="p">:</span><span class="m">16px</span><span class="p">;</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span><span class="m">8px</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-family</span><span class="p">:</span><span class="n">sofia</span><span class="p">;</span>
+<span class="nl">font-weight</span><span class="p">:</span> <span class="m">700</span>  <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">0.8em</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h5</span><span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span><span class="m">21px</span><span class="p">;</span>
+<span class="nl">line-height</span><span class="p">:</span><span class="m">26px</span><span class="p">;</span>
+<span class="nl">padding-top</span><span class="p">:</span><span class="m">16px</span><span class="p">;</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span><span class="m">8px</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-family</span><span class="p">:</span><span class="n">sofia</span><span class="p">;</span>
+<span class="nl">font-weight</span><span class="p">:</span> <span class="m">400</span>  <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">0.8em</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>最后是一个底部footer：</p> <p><img src="C:\Users\%E5%B8%85%E6%B0%94%E9%80%BC%E4%BA%BA%E7%9A%84%E9%97%AB%E5%8D%A1%E4%B8%98\Desktop\%E9%97%AB%E7%92%9F-Wiki%E8%80%83%E6%A0%B8-3019244290\Home3.PNG" alt=""></p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--底部footer--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"footer"</span> <span class="na">id=</span><span class="s">"myfooter"</span> <span class="na">style=</span><span class="s">"background-color: black;"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row footer-top"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6 col-lg-6"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;h4&gt;</span>About us<span class="nt">&lt;/h4&gt;</span>
+                        <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-unstyled"</span><span class="nt">&gt;</span>
+							<span class="nt">&lt;li&gt;</span>
+                            Team Tianjin 2019 is an undergraduate team from the Institute of Chemical Engineering, Tianjin University.
+							<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;/ul&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6 col-lg-6"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;h4&gt;</span>Contact us<span class="nt">&lt;/h4&gt;</span>
+                        <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-unstyled"</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;li&gt;</span>
+								Wechat: iGEM 天津
+                            <span class="nt">&lt;/li&gt;</span>
+                            <span class="nt">&lt;li&gt;</span>Email: igem.tianjin@gmail.com<span class="nt">&lt;/li&gt;</span>
+							<span class="nt">&lt;li&gt;</span>Address: School of Chemical Engineering, Tianjin University, 135 Yaguan Road, Jinnan District, Tianjin<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;/ul&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+
+        <span class="nt">&lt;/div&gt;</span>
+        
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <p>这里面用到的pb，mr，ml，mt等其实是margin和padding属性的简写，几个缩写,t,b,l,r,x,y含义分别是top,bottom,left,right,left和right,top和bottom，附官方文档链接：https://getbootstrap.com/docs/4.5/utilities/spacing/ ，</p> <p>Bootstrap 提供了一套响应式、移动设备优先的流式网格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多 12 列。附链接：https://www.runoob.com/bootstrap4/bootstrap4-grid-basic.html</p> <p>CSS相关代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#myfooter</span><span class="p">{</span>
+    <span class="nl">font-size</span><span class="p">:</span><span class="m">16.5px</span>
+<span class="p">}</span>
+
+<span class="nc">.footer</span><span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="no">whitesmoke</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>内容部分分为四小段，左图片右文字，每一段最下一行的 read more 按钮点击后可以跳转网页之类的操作。onclick就是一个HTML事件，可以在后面加上Js代码，使其在事件发生时执行。</p> <p>最上部写了一个滚动条，CSS部分利用了linear-gradient() 函数</p> <blockquote> <p>该函数用于创建一个线性渐变的 “图像”。为了创建一个线性渐变，你需要设置一个起始点和一个方向（指定为一个角度）的渐变效果。你还要定义终止色。终止色就是你想让Gecko去平滑的过渡，并且你必须指定至少两种，当然也会可以指定更多的颜色去创建更复杂的渐变效果。</p> </blockquote> <p>滚动条的JavaScript函数：</p> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+    <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+        <span class="kd">let</span> <span class="nx">pageHeight</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">scrollHeight</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">scrollHeight</span><span class="p">;</span> <span class="c1">// 页面总高度</span>
+        <span class="kd">let</span> <span class="nx">windowHeight</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientHeight</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">clientHeight</span><span class="p">;</span> <span class="c1">// 浏览器视口高度</span>
+        <span class="kd">let</span> <span class="nx">scrollAvail</span> <span class="o">=</span> <span class="nx">pageHeight</span> <span class="o">-</span> <span class="nx">windowHeight</span><span class="p">;</span> <span class="c1">// 可滚动的高度</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">可滚动的高度：</span><span class="dl">'</span><span class="p">,</span> <span class="nx">scrollAvail</span><span class="p">);</span>
+        <span class="nb">window</span><span class="p">.</span><span class="nx">onscroll</span> <span class="o">=</span> <span class="nf">function </span><span class="p">()</span> <span class="p">{</span>
+            <span class="kd">let</span> <span class="nx">scrollTop</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">scrollTop</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">scrollTop</span><span class="p">;</span>  <span class="c1">// 获取滚动条的高度</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">滚动条的高度：</span><span class="dl">'</span><span class="p">,</span> <span class="nx">scrollTop</span><span class="p">);</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.progress</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="p">(</span><span class="nx">scrollTop</span><span class="o">/</span><span class="nx">scrollAvail</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">%</span><span class="dl">'</span><span class="p">;</span>    <span class="c1">// 计算占比</span>
+        <span class="p">};</span>
+    <span class="p">}());</span>
+<span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div> <p>let关键字：let 声明的变量只是在其声明的块或者子块中可用，这一点，与var相似。二者的主要区别在于var声明的变量的作用域是整个封闭函数，而let声明的作用域是全局或者整个块的。</p> <h3 id="descriptionhtml">Description.html</h3> <p><img src="C:\Users\%E5%B8%85%E6%B0%94%E9%80%BC%E4%BA%BA%E7%9A%84%E9%97%AB%E5%8D%A1%E4%B8%98\Desktop\%E9%97%AB%E7%92%9F-Wiki%E8%80%83%E6%A0%B8-3019244290\Description1.PNG" alt=""></p> <p>这个顶部是用了一个jQuery插件： https://github.com/nk-o/jarallax ，实现了一种背景视觉差滚动特效。</p> <p><img src="C:\Users\%E5%B8%85%E6%B0%94%E9%80%BC%E4%BA%BA%E7%9A%84%E9%97%AB%E5%8D%A1%E4%B8%98\Desktop\%E9%97%AB%E7%92%9F-Wiki%E8%80%83%E6%A0%B8-3019244290\Description2.PNG" alt=""></p> <p>在侧边写了一个小目录，点击某个Part就可以移动到相应的位置。</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-3 mb-5 pb-5 mr-5"</span> <span class="na">id=</span><span class="s">"navSide"</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"navbar-example3"</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light flex-column position-sticky"</span> <span class="na">style=</span><span class="s">"top: 30%;left: 14%;font-size:110%;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"../images/标志5.jpg"</span> <span class="na">style=</span><span class="s">"height:30px;"</span><span class="nt">&gt;&lt;/img&gt;</span> Description<span class="nt">&lt;/a&gt;</span>
+             	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"nav nav-pills flex-column mt-4"</span><span class="nt">&gt;</span>        
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part1"</span><span class="nt">&gt;</span>Part1<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part2"</span><span class="nt">&gt;</span>Part2<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part3"</span><span class="nt">&gt;</span>Part3<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part4"</span><span class="nt">&gt;</span>Part4<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;/nav&gt;</span>
+            <span class="nt">&lt;/nav&gt;</span>
+ 		<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <h3 id="学习过程仅供参考qaq">学习过程（仅供参考QAQ）</h3> <p>我先是在</p> <p>上看教程学习，中途也去找了一些视频课程，但感觉老师都比较啰嗦，个人还是觉得直接看教程效率比较高（当然视频会让人更容易理解，老师有的时候会写写实例，也不会特别枯燥）。</p> <p>把HTML和CSS系列教程基本上看完，花了几天时间（期间一边看一边做笔记）。因为离ddl不远了，并且光看教程难以真正掌握，于是决定一边作任务一边学习，再学点js丰富一下网页内容。</p> <p>js也是直接看的网站上的教程。学习写网页时写不出来就去看别的网页的源代码，如IGEM往年的best wiki，还有别人推荐的插件库（虽然好多都没用上，但就多见识见识也挺好）后来因为写任务加练科目二，对js学习就比较落后，所以在自己的网页中用的不多，会在实例中多多学习。</p> </div> </article> <br> <hr> <br> <ul class="list-disc pl-8"></ul> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/typograms/">a post with typograms</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/">运动给我带来了什么</a> </li> <li class="my-2"> <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/post-citation/">a post that can be cited</a> </li> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2024 Jing Yan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10.7.0/dist/mermaid.min.js" integrity="sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js" integrity="sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw=" crossorigin="anonymous"></script> <script defer src="/assets/js/mermaid-setup.js?38ca0a0126f7328d2d9a46bad640931f" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?70d799092f862ad98c7876aa47712e20"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
     addBackToTop();
   </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
