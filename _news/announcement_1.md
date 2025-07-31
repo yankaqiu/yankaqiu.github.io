@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+[Accepted by ICME2025] RLCP: A Reinforcement Learning-based Copyright Protection Method for Text-to-Image Diffusion Model.
