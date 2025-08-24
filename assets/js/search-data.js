@@ -41,125 +41,15 @@ ninja.data = [{
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
         
       },
-    },{id: "post-a-post-with-typograms",
+    },{id: "post-what-has-sports-brought-me",
       
-        title: "a post with typograms",
-      
-      description: "this is what included typograms code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/typograms/";
-        
-      },
-    },{id: "post-运动给我带来了什么",
-      
-        title: "运动给我带来了什么",
+        title: "What has sports brought me",
       
       description: "幸亏运动给糟糕的生活提供掩耳盗铃的尊严",
       section: "Posts",
       handler: () => {
         
           window.location.href = "/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/";
-        
-      },
-    },{id: "post-a-post-that-can-be-cited",
-      
-        title: "a post that can be cited",
-      
-      description: "this is what a post that can be cited looks like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/post-citation/";
-        
-      },
-    },{id: "post-a-post-with-pseudo-code",
-      
-        title: "a post with pseudo code",
-      
-      description: "this is what included pseudo code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/pseudocode/";
-        
-      },
-    },{id: "post-a-post-with-code-diff",
-      
-        title: "a post with code diff",
-      
-      description: "this is how you can display code diffs",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/code-diff/";
-        
-      },
-    },{id: "post-a-post-with-advanced-image-components",
-      
-        title: "a post with advanced image components",
-      
-      description: "this is what advanced image components could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/advanced-images/";
-        
-      },
-    },{id: "post-a-post-with-vega-lite",
-      
-        title: "a post with vega lite",
-      
-      description: "this is what included vega lite code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/vega-lite/";
-        
-      },
-    },{id: "post-a-post-with-geojson",
-      
-        title: "a post with geojson",
-      
-      description: "this is what included geojson code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/geojson-map/";
-        
-      },
-    },{id: "post-a-post-with-echarts",
-      
-        title: "a post with echarts",
-      
-      description: "this is what included echarts code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/echarts/";
-        
-      },
-    },{id: "post-a-post-with-chart-js",
-      
-        title: "a post with chart.js",
-      
-      description: "this is what included chart.js code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/chartjs/";
-        
-      },
-    },{id: "post-a-post-with-tikzjax",
-      
-        title: "a post with TikZJax",
-      
-      description: "this is what included TikZ code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/tikzjax/";
         
       },
     },{id: "post-a-post-with-jupyter-notebook",
@@ -184,72 +74,6 @@ ninja.data = [{
           window.location.href = "/blog/2023/custom-blockquotes/";
         
       },
-    },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-      
-        title: "a post with table of contents on a sidebar",
-      
-      description: "an example of a blog post with table of contents on a sidebar",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/sidebar-table-of-contents/";
-        
-      },
-    },{id: "post-a-post-with-audios",
-      
-        title: "a post with audios",
-      
-      description: "this is what included audios could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/audios/";
-        
-      },
-    },{id: "post-a-post-with-videos",
-      
-        title: "a post with videos",
-      
-      description: "this is what included videos could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/videos/";
-        
-      },
-    },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-      
-        title: "displaying beautiful tables with Bootstrap Tables",
-      
-      description: "an example of how to use Bootstrap Tables",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/tables/";
-        
-      },
-    },{id: "post-a-post-with-table-of-contents",
-      
-        title: "a post with table of contents",
-      
-      description: "an example of a blog post with table of contents",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/table-of-contents/";
-        
-      },
-    },{id: "post-a-post-with-giscus-comments",
-      
-        title: "a post with giscus comments",
-      
-      description: "an example of a blog post with giscus comments",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/giscus-comments/";
-        
-      },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
       
         title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -261,26 +85,15 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "post-a-post-with-redirect",
+    },{id: "post-小菜鸡的网页学习记录",
       
-        title: "a post with redirect",
+        title: "小菜鸡的网页学习记录",
       
-      description: "you can also redirect to assets like pdf",
+      description: "this is what included typograms code could look like",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/assets/pdf/example_pdf.pdf";
-        
-      },
-    },{id: "post-小菜鸡的网页学习分享-1",
-      
-        title: "小菜鸡的网页学习分享（1）",
-      
-      description: "an example of a blog post with diagrams",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2021/diagrams/";
+          window.location.href = "/blog/2020/typograms/";
         
       },
     },{id: "news-accepted-by-icme2025-rlcp-a-reinforcement-learning-based-copyright-protection-method-for-text-to-image-diffusion-model-i-ll-be-giving-an-oral-presentation-at-the-conference",

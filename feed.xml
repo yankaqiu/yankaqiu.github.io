@@ -1,753 +1,509 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://yankaqiu.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yankaqiu.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-18T08:56:08+00:00</updated><id>https://yankaqiu.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://yankaqiu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://yankaqiu.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://yankaqiu.github.io/blog/2024/typograms</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://yankaqiu.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">运动给我带来了什么</title><link href="https://yankaqiu.github.io/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/" rel="alternate" type="text/html" title="运动给我带来了什么"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/"><![CDATA[<h1 id="运动给我带来了什么">运动给我带来了什么</h1> <p>前两天听树老师的播客，讨论运动如何帮助她抵御生活带来的大耳刮子，不禁开始思考运动对我的意义是什么。自从骨折后，暂停了大部分运动，目前较为规律得进行着的，只有健身了。</p> <p>其实虽然痴迷去健身法健身，俗称“撸铁”，我和它的关系确是一直拉扯。刚入门的时候狂热上头，疯狂训练，肌肉确实涨了不少，但因无法控制饮食吃的越来越多而变成脏增肌，随后控制饮食加入有氧，却因对自己过于苛刻姨妈停止…目前慢慢掌握规律，也有看许多相关的营养学运动学书籍，根据自己的激素周期来合理训练，与增肌减脂和解。</p> <p>先说说运动习惯对我的一些积极影响，比如帮助我克服焦虑。社会上已经很少有像健身这么让我感觉平等而又充满希望的事情了。健身的机会比如器材充裕平等，努力的难度透明，所以我们看到健美的身材会发自内心的佩服和欣赏。</p> <p>/to-write</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[幸亏运动给糟糕的生活提供掩耳盗铃的尊严]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://yankaqiu.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://yankaqiu.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://yankaqiu.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yankaqiu.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-24T14:51:22+00:00</updated><id>https://yankaqiu.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://yankaqiu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">What has sports brought me</title><link href="https://yankaqiu.github.io/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/" rel="alternate" type="text/html" title="What has sports brought me"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/"><![CDATA[<h1 id="运动给我带来了什么">运动给我带来了什么</h1> <p>前两天听树老师的播客，讨论运动如何帮助她抵御生活带来的大耳刮子，不禁开始思考运动对我的意义是什么。自从骨折后，暂停了大部分运动，目前较为规律得进行着的，只有健身了。</p> <p>其实虽然痴迷去健身法健身，俗称“撸铁”，我和它的关系确是一直拉扯。刚入门的时候狂热上头，疯狂训练，肌肉确实涨了不少，但因无法控制饮食吃的越来越多而变成脏增肌，随后控制饮食加入有氧，却因对自己过于苛刻生理期紊乱。。。目前慢慢掌握规律，也有看许多相关的营养学运动学书籍，根据自己的激素周期来合理训练，与增肌减脂和解。</p> <p>我觉得运动帮助我在低谷中笑对生活往脸上呼的一个个大耳刮子。来到苏黎世后，憧憬中的美好自由生活也有，但更多的是一个个全新的挑战。当我面对难以相处的室友，接触全新的课题，面对考试的压力······当我无所适从的时候，我会拿起健身服，拿起羽毛球拍，背上健身包，走进体育馆。当我完成训练计划走出来的时候，我知道我还没有被击碎，I’m sill holding together,把碎掉的自己拼起来，烂事情都会过去的。</p> <p>运动习惯对我的其他一些积极影响，比如帮助我克服焦虑。社会上已经很少有像健身这么让我感觉平等而又充满希望的事情了。健身的机会比如器材充裕平等，努力的难度透明，所以我们看到健美的身材会发自内心的佩服和欣赏。运动让我充满实感和掌控感， 这一切都是我努力得来的。运动会让我只专注于自己，以自己为标杆，突破自己，it doesn’t get better, but you get better.</p> <p>每天的运动会给予我一定的力量，但又不会给我太多的希望。我既清晰地感觉到只要练好就会更好更有力量，但是我越往前越意识到有些无法突破的东西，比如基因，体型等等。所以也许运动让我意识到自己的上限，承认并接受瓶颈和低谷。运动作为一种resistance，帮助我面对生活往我脸上呼的大耳刮子，通过不断抗争来保持完整性，以及不让所有乱七八糟的声音左右我的生活。</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[幸亏运动给糟糕的生活提供掩耳盗铃的尊严]]></summary></entry><entry><title type="html">a post with jupyter notebook</title><link href="https://yankaqiu.github.io/blog/2023/jupyter-notebook/" rel="alternate" type="text/html" title="a post with jupyter notebook"/><published>2023-07-04T12:57:00+00:00</published><updated>2023-07-04T12:57:00+00:00</updated><id>https://yankaqiu.github.io/blog/2023/jupyter-notebook</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2023/jupyter-notebook/"><![CDATA[<p>To include a jupyter notebook in a post, you can use the following code:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{::nomarkdown}
+<span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">jupyter_path</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'assets/jupyter/blog.ipynb'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">relative_url</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">notebook_exists</span><span class="w"> </span><span class="cp">%}{%</span><span class="w"> </span><span class="nt">file_exists</span><span class="w"> </span>assets/jupyter/blog.ipynb<span class="w"> </span><span class="cp">%}{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">notebook_exists</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">'true'</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">jupyter_notebook</span><span class="w"> </span><span class="nv">jupyter_path</span><span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">else</span><span class="w"> </span><span class="cp">%}</span>
+  &lt;p&gt;Sorry, the notebook you are looking for does not exist.&lt;/p&gt;
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span>
+{:/nomarkdown}
+</code></pre></div></div> <p>Let’s break it down: this is possible thanks to <a href="https://github.com/red-data-tools/jekyll-jupyter-notebook">Jekyll Jupyter Notebook plugin</a> that allows you to embed jupyter notebooks in your posts. It basically calls <a href="https://nbconvert.readthedocs.io/en/latest/usage.html#convert-html"><code class="language-plaintext highlighter-rouge">jupyter nbconvert --to html</code></a> to convert the notebook to an html page and then includes it in the post. Since <a href="https://jekyllrb.com/docs/configuration/markdown/">Kramdown</a> is the default Markdown renderer for Jekyll, we need to surround the call to the plugin with the <a href="https://kramdown.gettalong.org/syntax.html#extensions">::nomarkdown</a> tag so that it stops processing this part with Kramdown and outputs the content as-is.</p> <p>The plugin takes as input the path to the notebook, but it assumes the file exists. If you want to check if the file exists before calling the plugin, you can use the <code class="language-plaintext highlighter-rouge">file_exists</code> filter. This avoids getting a 404 error from the plugin and ending up displaying the main page inside of it instead. If the file does not exist, you can output a message to the user. The code displayed above outputs the following:</p> <div class="jupyter-notebook" style="position: relative; width: 100%; margin: 0 auto;"> <div class="jupyter-notebook-iframe-container"> <iframe src="/assets/jupyter/blog.ipynb.html" style="position: absolute; top: 0; left: 0; border-style: none;" width="100%" height="100%" onload="this.parentElement.style.paddingBottom = (this.contentWindow.document.documentElement.scrollHeight + 10) + 'px'"></iframe> </div> </div> <p>Note that the jupyter notebook supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="jupyter"/><summary type="html"><![CDATA[an example of a blog post with jupyter notebook]]></summary></entry><entry><title type="html">a post with custom blockquotes</title><link href="https://yankaqiu.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="a post with custom blockquotes"/><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://yankaqiu.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p>This post shows how to add custom styles for blockquotes. Based on <a href="https://github.com/sighingnow/jekyll-gitbook">jekyll-gitbook</a> implementation.</p> <p>We decided to support the same custom blockquotes as in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">jekyll-gitbook</a>, which are also found in a lot of other sites’ styles. The styles definitions can be found on the <a href="https://github.com/alshedivat/al-folio/blob/main/_sass/_base.scss">_base.scss</a> file, more specifically:</p> <div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Tips, warnings, and dangers */</span>
+<span class="nc">.post</span> <span class="nc">.post-content</span> <span class="nt">blockquote</span> <span class="p">{</span>
+  <span class="k">&amp;</span><span class="nc">.block-tip</span> <span class="p">{</span>
+    <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block</span><span class="p">);</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-bg</span><span class="p">);</span>
 
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
+    <span class="nt">p</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-text</span><span class="p">);</span>
+    <span class="p">}</span>
 
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
+    <span class="nt">h1</span><span class="o">,</span>
+    <span class="nt">h2</span><span class="o">,</span>
+    <span class="nt">h3</span><span class="o">,</span>
+    <span class="nt">h4</span><span class="o">,</span>
+    <span class="nt">h5</span><span class="o">,</span>
+    <span class="nt">h6</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-title</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
 
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+  <span class="k">&amp;</span><span class="nc">.block-warning</span> <span class="p">{</span>
+    <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block</span><span class="p">);</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block-bg</span><span class="p">);</span>
 
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
+    <span class="nt">p</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block-text</span><span class="p">);</span>
+    <span class="p">}</span>
 
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
+    <span class="nt">h1</span><span class="o">,</span>
+    <span class="nt">h2</span><span class="o">,</span>
+    <span class="nt">h3</span><span class="o">,</span>
+    <span class="nt">h4</span><span class="o">,</span>
+    <span class="nt">h5</span><span class="o">,</span>
+    <span class="nt">h6</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block-title</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
 
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
+  <span class="k">&amp;</span><span class="nc">.block-danger</span> <span class="p">{</span>
+    <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block</span><span class="p">);</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block-bg</span><span class="p">);</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
+    <span class="nt">p</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block-text</span><span class="p">);</span>
+    <span class="p">}</span>
 
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
+    <span class="nt">h1</span><span class="o">,</span>
+    <span class="nt">h2</span><span class="o">,</span>
+    <span class="nt">h3</span><span class="o">,</span>
+    <span class="nt">h4</span><span class="o">,</span>
+    <span class="nt">h5</span><span class="o">,</span>
+    <span class="nt">h6</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block-title</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>A regular blockquote can be used as following:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; This is a regular blockquote</span>
+<span class="gt">&gt; and it can be used as usual</span>
+</code></pre></div></div> <blockquote> <p>This is a regular blockquote and it can be used as usual</p> </blockquote> <p>These custom styles can be used by adding the specific class to the blockquote, as follows:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; A tip can be used when you want to give advice</span>
+<span class="gt">&gt; related to a certain content.</span>
+{: .block-tip }
+</code></pre></div></div> <blockquote class="block-tip"> <h5 id="tip">TIP</h5> <p>A tip can be used when you want to give advice related to a certain content.</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNING</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; This is a warning, and thus should</span>
+<span class="gt">&gt; be used when you want to warn the user</span>
+{: .block-warning }
+</code></pre></div></div> <blockquote class="block-warning"> <h5 id="warning">WARNING</h5> <p>This is a warning, and thus should be used when you want to warn the user</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### DANGER</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; This is a danger zone, and thus should</span>
+<span class="gt">&gt; be used carefully</span>
+{: .block-danger }
+</code></pre></div></div> <blockquote class="block-danger"> <h5 id="danger">DANGER</h5> <p>This is a danger zone, and thus should be used carefully</p> </blockquote> ]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="blockquotes"/><summary type="html"><![CDATA[an example of a blog post with custom blockquotes]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://yankaqiu.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://yankaqiu.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">小菜鸡的网页学习记录</title><link href="https://yankaqiu.github.io/blog/2020/typograms/" rel="alternate" type="text/html" title="小菜鸡的网页学习记录"/><published>2020-10-09T00:00:00+00:00</published><updated>2020-10-09T00:00:00+00:00</updated><id>https://yankaqiu.github.io/blog/2020/typograms</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2020/typograms/"><![CDATA[<h1 id="小菜鸡的网页学习记录">小菜鸡的网页学习记录</h1> <p>我先简单介绍一下我做的两个网页：</p> <p>一个主界面，一个详细界面。</p> <p>我这两个网页主要是用CSS来实现的，少部分用到js，我暂时学的也是比较基础的部分，想要做出优秀的网页还有很长的一段路要走。</p> <h3 id="homehtml">Home.html</h3> <p><img src="C:\Users\帅气逼人的闫卡丘\Desktop\闫璟-Wiki考核-3019244290\Home1.PNG" alt=""/></p> <p>这是主网页的开头部分，顶端的目录鼠标移动至上面会出现下拉菜单：</p> <p><img src="C:\Users\帅气逼人的闫卡丘\Desktop\闫璟-Wiki考核-3019244290\Home2.PNG" alt=""/></p> <p>那就先说这个下拉菜单如何实现的。本来我写过一版纯自实现的navbar，最终这一版navbar是基于bootstrap4写的（关于bootstrap4的介绍和使用有相关的</p> <p>和中文网站（还是看英文的吧），以及</p> <p>可找到和借鉴一些基础的模板），这样稍微简洁了些，再用css写一些样式即可。</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body</span> <span class="na">data-spy=</span><span class="s">"scroll"</span> <span class="na">data-target=</span><span class="s">"#navbar-example3"</span> <span class="na">data-offset=</span><span class="s">"60"</span> <span class="na">class=</span><span class="s">"scrollspy-example-2"</span> <span class="na">style=</span><span class="s">"position:relative;overflow:auto"</span> <span class="na">id=</span><span class="s">"content"</span><span class="nt">&gt;</span>
 
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
 
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
+    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"navbar navbar-expand-md fixed-top"</span> <span class="na">style=</span><span class="s">"box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;background-color:rgb(255, 255, 255);"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand col-2 mt-2"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;img</span> <span class="na">style=</span><span class="s">"height: 70px;position: fixed;top:0.5%"</span> <span class="na">src=</span><span class="s">"../images/捕获.PNG"</span><span class="nt">&gt;&lt;/img&gt;&lt;/a&gt;</span>
+        
+        <span class="c">&lt;!--下拉导航--&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"navbar-toggler"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">"#navbarSupportedContent"</span> <span class="na">aria-controls=</span><span class="s">"navbarSupportedContent"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-label=</span><span class="s">"Toggle navigation"</span>
+        <span class="na">style=</span><span class="s">"padding-top: 6px;
+        padding-bottom: 6px;
+        border: 1px solid black;
+           border-radius: 0;
+           float: right;"</span><span class="nt">&gt;</span>
+            <span class="c">&lt;!--按钮里的内容,三条横杠--&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"navbar-toggler-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+    
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"collapse navbar-collapse "</span> <span class="na">style=</span><span class="s">"margin-left: 11%; margin-top: 0.8%;font-size: 17px;"</span> <span class="na">id=</span><span class="s">"navbarSupportedContent"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"navbar-nav mr-auto"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item active"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"/Home.html"</span><span class="nt">&gt;</span>Home <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>(current)<span class="nt">&lt;/span&gt;&lt;/a&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarProject"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Project
+                    <span class="nt">&lt;/a&gt;</span>
+    
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"/Description.html"</span><span class="nt">&gt;</span>Description<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Design<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Model<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Safety<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Demonstrate<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarResults"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Experiment
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Notebook<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Results<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarParts"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Parts
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Overview<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Part Collection<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Improved Parts<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Measurement<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarHuman"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Human
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Human Practice<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>HP Supplement<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Collaborations<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item dropdown"</span> <span class="na">id=</span><span class="s">"bgcolor"</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link dropdown-toggle"</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">id=</span><span class="s">"navbarTeam"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span> <span class="na">aria-haspopup=</span><span class="s">"true"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>
+                        Team
+                    <span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"navbarDropdown"</span> <span class="na">id=</span><span class="s">"bgcolor2"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Team<span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Attributions<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;/div&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+    
+            <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/nav&gt;</span>    
+</code></pre></div></div> <p>内含的基础知识：</p> <blockquote> <p>html属性和元素</p> <ul> <li> <p>在html代码里，class为类，我们可以为不同的类设置不同的样式。HTML <code class="language-plaintext highlighter-rouge">&lt;div&gt; </code>元素是<em>块级元素</em>。它能够用作其他 HTML 元素的容器。设置 &lt;div&gt; 元素的类，使我们能够为相同的 <code class="language-plaintext highlighter-rouge">&lt;div&gt; </code>元素设置相同的类。</p> </li> <li> <p><code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code>标签定义导航链接的容器。</p> </li> <li> <p>无序列表是一个项目的列表，此列项目使用粗体圆点（典型的小黑圆圈）进行标记。无序列表始于 <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> 标签。每个列表项始于<code class="language-plaintext highlighter-rouge"> &lt;li&gt;</code>。</p> </li> <li> <p>有序列表始于 <code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code> 标签。每个列表项始于 <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> 标签。</p> </li> <li> <p>通过使用<code class="language-plaintext highlighter-rouge"> &lt;a&gt;</code> 标签在 HTML 中创建链接。</p> <p>有两种使用<code class="language-plaintext highlighter-rouge"> &lt;a&gt;</code> 标签的方式：</p> <ol> <li>通过使用 href 属性 - 创建指向另一个文档的链接</li> <li>通过使用 name 属性 - 创建文档内的书签</li> </ol> <p>超链接可以是一个字，一个词，或者一组词，也可以是一幅图像，您可以点击这些内容来跳转到新的文档或者当前文档中的某个部分。</p> </li> </ul> </blockquote> <p><code class="language-plaintext highlighter-rouge">&lt;style&gt;</code>内CSS代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.navbar-light</span> <span class="nc">.navbar-brand</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0.9</span><span class="p">);</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="m">600</span><span class="p">;</span>
+<span class="p">}</span>
 
-   var hoganTemplates = require('./templates/diff2html-templates.js');
+<span class="nc">.navbar-toggler-icon</span><span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span><span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
+<span class="nc">.navbar-toggler</span><span class="p">{</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
+<span class="p">}</span>
 
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
+<span class="nc">.nav-pills</span> <span class="nc">.nav-link.active</span><span class="o">,</span> <span class="nc">.nav-pills</span> <span class="nc">.show</span> <span class="o">&gt;</span> <span class="nc">.nav-link</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">250</span><span class="p">,</span><span class="m">226</span><span class="p">,</span><span class="m">180</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="nl">box-shadow</span><span class="p">:</span> <span class="m">0</span> <span class="m">.3rem</span> <span class="m">.5rem</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">.15</span><span class="p">)</span><span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
+<span class="nc">.navbar-toggler</span><span class="p">{</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="p">}</span>
 
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
+  <span class="nt">li</span><span class="nd">:hover</span> <span class="nc">.dropdown-menu</span> <span class="p">{</span>
+      <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nc">.dropdown-menu</span> <span class="p">{</span>
+  <span class="nl">top</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
 
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:link</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:visited</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:hover</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nt">a</span><span class="nd">:active</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;}</span>
 
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:link</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:visited</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:hover</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;}</span>
+<span class="nf">#bgcolor</span> <span class="nf">#bgcolor2</span> <span class="nt">a</span><span class="nd">:active</span><span class="p">{</span><span class="nl">color</span><span class="p">:</span> <span class="no">black</span> <span class="cp">!important</span><span class="p">;}</span>
 
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
+<span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">grey</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
-@@ -53,6 +53,7 @@
+<span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">104</span><span class="p">,</span><span class="m">88</span><span class="p">,</span><span class="m">91</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
+<span class="nc">.dropdown-item</span><span class="nd">:hover</span><span class="o">,</span> <span class="nc">.dropdown-item</span><span class="nd">:focus</span> <span class="p">{</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="n">rgba</span><span class="p">(</span><span class="m">243</span><span class="p">,</span> <span class="m">237</span><span class="p">,</span> <span class="m">238</span><span class="p">,</span> <span class="m">0.473</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
+<span class="nc">.dropdown-item.active</span><span class="o">,</span> <span class="nc">.dropdown-item</span><span class="nd">:active</span> <span class="p">{</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="m">#007bff</span><span class="p">;</span>
+<span class="p">}</span>
 
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
+<span class="nt">a</span><span class="nc">.nav-link</span><span class="p">{</span>
+<span class="nl">padding</span><span class="p">:</span><span class="m">2px</span> <span class="m">20px</span><span class="p">;</span>
+<span class="nl">margin</span><span class="p">:</span> <span class="m">0.5rem</span><span class="p">;</span>
+<span class="p">}</span>
 
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
+</code></pre></div></div> <p>基础知识：</p> <p>CSS选择器（类选择器、ID选择器、可结合）</p> <p>接下来介绍轮播图（基于bootstrap4.5.0编写的，用css写了淡入淡出效果），但是最近学习 到用jQuery可以写出更丰富的轮播图，若使用可以再改进！：</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--轮播图--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"containerr"</span> <span class="na">id=</span><span class="s">"allCarousel"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"Carousel"</span> <span class="na">class=</span><span class="s">"carousel slide carousel-fade"</span> <span class="na">data-ride=</span><span class="s">"carousel"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!--指示符--&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"list-style-type: none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#Carousel"</span> <span class="na">data-slide-to=</span><span class="s">"0"</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;&lt;/ul&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"list-style-type: none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#Carousel"</span> <span class="na">data-slide-to=</span><span class="s">"1"</span><span class="nt">&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;&lt;/ul&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">style=</span><span class="s">"list-style-type: none"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"carousel-indicators"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li</span> <span class="na">data-target=</span><span class="s">"#Carousel"</span> <span class="na">data-slide-to=</span><span class="s">"2"</span><span class="nt">&gt;&lt;/li&gt;</span>
+            <span class="nt">&lt;/ol&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="c">&lt;!--轮播图片--&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-inner"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-item active"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/index2.jpg"</span> <span class="na">alt=</span><span class="s">"First slide"</span> <span class="na">class=</span><span class="s">"d-block w-100"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption d-done d-md-block"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h1&gt;</span>2020 IGEM<span class="nt">&lt;/h1&gt;</span>
+                <span class="nt">&lt;h5&gt;</span>TJU 2020<span class="nt">&lt;/h5&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-item"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/index.jpg"</span> <span class="na">alt=</span><span class="s">"Second slide"</span> <span class="na">class=</span><span class="s">"d-block w-100"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption d-done d-md-block"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h1&gt;</span>2020 IGEM<span class="nt">&lt;/h1&gt;</span>
+                <span class="nt">&lt;h5&gt;</span>TJU 2020<span class="nt">&lt;/h5&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-item"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/index3.jpg"</span> <span class="na">alt=</span><span class="s">"Third slide"</span> <span class="na">class=</span><span class="s">"d-block w-100"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption d-done d-md-block"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;h1&gt;</span>2020 IGEM<span class="nt">&lt;/h1&gt;</span>
+                <span class="nt">&lt;h5&gt;</span>TJU 2020<span class="nt">&lt;/h5&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="c">&lt;!--左右切换按钮--&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"carousel-control-prev"</span> <span class="na">href=</span><span class="s">"#Carousel"</span> <span class="na">data-slide=</span><span class="s">"prev"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"carousel-control-prev-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"carousel-control-next"</span> <span class="na">href=</span><span class="s">"#Carousel"</span> <span class="na">data-slide=</span><span class="s">"next"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"carousel-control-next-icon"</span><span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <blockquote> <p><code class="language-plaintext highlighter-rouge">&lt;span&gt;</code> 元素是行内元素，能够用作文本的容器。</p> <p>设置 <code class="language-plaintext highlighter-rouge">&lt;span&gt; </code>元素的类，能够为相同的 <code class="language-plaintext highlighter-rouge">&lt;span&gt; </code>元素设置相同的样式。</p> </blockquote> <p>CSS相关代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.carousel-inner</span> <span class="nt">img</span><span class="p">{</span>
+        <span class="nl">width</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+        <span class="nl">height</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+    <span class="p">}</span>
 
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
+<span class="c">/* bootstrap 轮播图淡入淡出 */</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item</span> <span class="p">{</span>
+    <span class="nl">-webkit-transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0</span><span class="p">);</span>
+    <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">0</span><span class="p">);</span>
+    <span class="nl">transition-property</span><span class="p">:</span> <span class="n">opacity</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.active.carousel-item-left</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.active.carousel-item-right</span> <span class="p">{</span>
+    <span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.active</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item-next.carousel-item-left</span><span class="o">,</span>
+<span class="nc">.carousel-fade</span> <span class="nc">.carousel-inner</span> <span class="nc">.carousel-item-prev.carousel-item-right</span> <span class="p">{</span>
+    <span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;</span>
+<span class="p">}</span>
 
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
+</code></pre></div></div> <blockquote> <p>opacity属性指定了一个元素的透明度，opicity:1是完全不透明，0是完全透明，</p> <p>translateX()函数表示在二维平面上水平方向移动元素。</p> </blockquote> <p>接下来是将界面设置为左文字右图片。</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--下面分成四段，左文字右图片，设置背景色--&gt;</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
+<span class="nt">&lt;div&gt;</span>                      
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight1"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight1.png"</span> <span class="na">width=</span><span class="s">"80%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right, #2f80ed,#56ccf2);;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 90%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm; text-align: justify;"</span><span class="nt">&gt;</span>
+                    PET is used extensively worldwide. However, the ability to enzymatically degrade PET, especially
+                highly crystallized PET, has been thought to be limited to a few hydrolase. <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #2f80ed,#56ccf2);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"height:100px"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-2"</span><span class="nt">&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right,#fbc7d4, #9796f0);"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 100%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm;text-align: justify;"</span><span class="nt">&gt;</span>
+                    Although IsPETase has the highest degradation activity of highly crystallized PET under mild
+                conditions of all PET-degrading enzymes reported to date, its low thermal stability limits its ability
+                for efficient and practical enzymatic degradation of PET. Considering the glass transition
+                temperature of PET is around 75°C, above which the polyester chain of PET performs in a high
+                elastic state where the degradation is promoted, thus, higher thermal stability will enable IsPETase
+                to degrade highly crystallized PET more efficiently. <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #fbc7d4, #9796f0);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight2.png"</span> <span class="na">width=</span><span class="s">"100%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight3"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight3.jpg"</span> <span class="na">width=</span><span class="s">"80%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right, #ffafbd,#ffc3a0);"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 85%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm;text-align: justify;"</span><span class="nt">&gt;</span>
+                    Basing on the structural information of IsPETase and the theory of rational design, we developed
+                    a series of protein engineering strategy using several IsPETase variants that were screened for high
+                    thermal stability to improve PET degradation activity. The designed structural modifications will
+                    then be further verified through a proper evaluation strategy.
+                    <span class="nt">&lt;/p&gt;</span> 
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #ffafbd,#ffc3a0);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    
+    <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"height:150px"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"row"</span> <span class="na">id=</span><span class="s">"highlight4"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-2"</span><span class="nt">&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-5"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"circle"</span> <span class="na">style=</span><span class="s">"position: absolute;left: -30px;top:3px;background-image: linear-gradient(to right, #ffe259,#ffa751);;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"index_para"</span> <span class="na">style=</span><span class="s">"width: 90%;"</span><span class="nt">&gt;&lt;h1&gt;&lt;/h1&gt;</span>
+            <span class="nt">&lt;/br&gt;</span>
+                <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fs-3"</span> <span class="na">style=</span><span class="s">"margin: 1cm 0 1cm 0; text-indent: 1cm;text-align: justify;"</span><span class="nt">&gt;</span>
+                    Our project can help to increase the possibility of achieving the biodegradation of highly
+                    crystallized PET under higher temperatures, contributing to solving the environmental and health
+                    problems caused by the abuse of PET. Moreover, the method of rational protein engineering to
+                    enhance the thermal stability of a target protein, can be effectively utilized in further applications.
+                    <span class="nt">&lt;/p&gt;</span>  
+                <span class="nt">&lt;button</span> <span class="na">style=</span><span class="s">"background-image: linear-gradient(to right, #ffe259,#ffa751);"</span> <span class="na">onclick=</span><span class="s">"window.location.href='#'"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            
+        <span class="nt">&lt;/div&gt;</span>
+        
+        <span class="nt">&lt;div</span> <span class="na">class = </span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">style=</span><span class="s">"position:relative"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"../images/indexhighlight4.jpg"</span> <span class="na">style=</span><span class="s">"float:right"</span> <span class="na">width=</span><span class="s">"80%"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+            
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <p>CSS相关代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#top_title</span><span class="p">{</span>
+<span class="nl">display</span><span class="p">:</span><span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
 
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
+<span class="nf">#content</span><span class="p">{</span>
+<span class="nl">margin</span><span class="p">:</span><span class="m">0</span><span class="p">;</span>
+<span class="nl">width</span><span class="p">:</span><span class="m">100%</span><span class="p">;</span>
+<span class="nl">background-color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="m">160</span><span class="p">,</span> <span class="m">160</span><span class="p">,</span> <span class="m">160</span><span class="p">);</span>
+<span class="p">}</span>
 
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
+<span class="nt">p</span> <span class="p">{</span>
+<span class="nl">font-size</span><span class="p">:</span><span class="m">20px</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">text-align</span><span class="p">:</span> <span class="nb">left</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Open Sans'</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-weight</span><span class="p">:</span><span class="m">350</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
 
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
+<span class="nc">.h1</span><span class="p">{</span>
+    <span class="nl">font-size</span><span class="p">:</span><span class="m">90px</span><span class="p">;</span>
+<span class="p">}</span>
 
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
+<span class="nt">h4</span><span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span><span class="m">25px</span><span class="p">;</span>
+<span class="nl">line-height</span><span class="p">:</span><span class="m">26px</span><span class="p">;</span>
+<span class="nl">padding-top</span><span class="p">:</span><span class="m">16px</span><span class="p">;</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span><span class="m">8px</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-family</span><span class="p">:</span><span class="n">sofia</span><span class="p">;</span>
+<span class="nl">font-weight</span><span class="p">:</span> <span class="m">700</span>  <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">0.8em</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
 
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
+<span class="nt">h5</span><span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span><span class="m">21px</span><span class="p">;</span>
+<span class="nl">line-height</span><span class="p">:</span><span class="m">26px</span><span class="p">;</span>
+<span class="nl">padding-top</span><span class="p">:</span><span class="m">16px</span><span class="p">;</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span><span class="m">8px</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">font-family</span><span class="p">:</span><span class="n">sofia</span><span class="p">;</span>
+<span class="nl">font-weight</span><span class="p">:</span> <span class="m">400</span>  <span class="cp">!important</span><span class="p">;</span>
+<span class="nl">margin-bottom</span><span class="p">:</span> <span class="m">0.8em</span> <span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>最后是一个底部footer：</p> <p><img src="C:\Users\帅气逼人的闫卡丘\Desktop\闫璟-Wiki考核-3019244290\Home3.PNG" alt=""/></p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--底部footer--&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"footer"</span> <span class="na">id=</span><span class="s">"myfooter"</span> <span class="na">style=</span><span class="s">"background-color: black;"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row footer-top"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6 col-lg-6"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;h4&gt;</span>About us<span class="nt">&lt;/h4&gt;</span>
+                        <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-unstyled"</span><span class="nt">&gt;</span>
+							<span class="nt">&lt;li&gt;</span>
+                            Team Tianjin 2019 is an undergraduate team from the Institute of Chemical Engineering, Tianjin University.
+							<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;/ul&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6 col-lg-6"</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;h4&gt;</span>Contact us<span class="nt">&lt;/h4&gt;</span>
+                        <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-unstyled"</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;li&gt;</span>
+								Wechat: iGEM 天津
+                            <span class="nt">&lt;/li&gt;</span>
+                            <span class="nt">&lt;li&gt;</span>Email: igem.tianjin@gmail.com<span class="nt">&lt;/li&gt;</span>
+							<span class="nt">&lt;li&gt;</span>Address: School of Chemical Engineering, Tianjin University, 135 Yaguan Road, Jinnan District, Tianjin<span class="nt">&lt;/li&gt;</span>
+                        <span class="nt">&lt;/ul&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
 
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
+        <span class="nt">&lt;/div&gt;</span>
+        
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <p>这里面用到的pb，mr，ml，mt等其实是margin和padding属性的简写，几个缩写,t,b,l,r,x,y含义分别是top,bottom,left,right,left和right,top和bottom，附官方文档链接：https://getbootstrap.com/docs/4.5/utilities/spacing/ ，</p> <p>Bootstrap 提供了一套响应式、移动设备优先的流式网格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多 12 列。附链接：https://www.runoob.com/bootstrap4/bootstrap4-grid-basic.html</p> <p>CSS相关代码：</p> <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#myfooter</span><span class="p">{</span>
+    <span class="nl">font-size</span><span class="p">:</span><span class="m">16.5px</span>
+<span class="p">}</span>
 
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://yankaqiu.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://yankaqiu.github.io/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/vega-lite</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry><entry><title type="html">a post with geojson</title><link href="https://yankaqiu.github.io/blog/2024/geojson-map/" rel="alternate" type="text/html" title="a post with geojson"/><published>2024-01-26T17:57:00+00:00</published><updated>2024-01-26T17:57:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/geojson-map</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/geojson-map/"><![CDATA[<p>This is an example post with some <a href="https://geojson.org/">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/">geojson.io</a>.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
-</span><span class="sb">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-geojson">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry><entry><title type="html">a post with echarts</title><link href="https://yankaqiu.github.io/blog/2024/echarts/" rel="alternate" type="text/html" title="a post with echarts"/><published>2024-01-26T16:03:00+00:00</published><updated>2024-01-26T16:03:00+00:00</updated><id>https://yankaqiu.github.io/blog/2024/echarts</id><content type="html" xml:base="https://yankaqiu.github.io/blog/2024/echarts/"><![CDATA[<p>This is an example post with some <a href="https://echarts.apache.org/">echarts</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">echarts
-</span><span class="sb">{
-  "title": {
-    "text": "ECharts Getting Started Example"
-  },
-  "responsive": true,
-  "tooltip": {},
-  "legend": {
-    "top": "30px",
-    "data": ["sales"]
-  },
-  "xAxis": {
-    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
-  },
-  "yAxis": {},
-  "series": [
-    {
-      "name": "sales",
-      "type": "bar",
-      "data": [5, 20, 36, 10, 10, 20]
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-echarts">{
-  "title": {
-    "text": "ECharts Getting Started Example"
-  },
-  "responsive": true,
-  "tooltip": {},
-  "legend": {
-    "top": "30px",
-    "data": ["sales"]
-  },
-  "xAxis": {
-    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
-  },
-  "yAxis": {},
-  "series": [
-    {
-      "name": "sales",
-      "type": "bar",
-      "data": [5, 20, 36, 10, 10, 20]
-    }
-  ]
-}
-</code></pre> <p>Note that this library offer support for both light and dark themes. You can switch between them using the theme switcher in the top right corner of the page.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included echarts code could look like]]></summary></entry></feed>
+<span class="nc">.footer</span><span class="p">{</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="no">whitesmoke</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>内容部分分为四小段，左图片右文字，每一段最下一行的 read more 按钮点击后可以跳转网页之类的操作。onclick就是一个HTML事件，可以在后面加上Js代码，使其在事件发生时执行。</p> <p>最上部写了一个滚动条，CSS部分利用了linear-gradient() 函数</p> <blockquote> <p>该函数用于创建一个线性渐变的 “图像”。为了创建一个线性渐变，你需要设置一个起始点和一个方向（指定为一个角度）的渐变效果。你还要定义终止色。终止色就是你想让Gecko去平滑的过渡，并且你必须指定至少两种，当然也会可以指定更多的颜色去创建更复杂的渐变效果。</p> </blockquote> <p>滚动条的JavaScript函数：</p> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+    <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+        <span class="kd">let</span> <span class="nx">pageHeight</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">scrollHeight</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">scrollHeight</span><span class="p">;</span> <span class="c1">// 页面总高度</span>
+        <span class="kd">let</span> <span class="nx">windowHeight</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">clientHeight</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">clientHeight</span><span class="p">;</span> <span class="c1">// 浏览器视口高度</span>
+        <span class="kd">let</span> <span class="nx">scrollAvail</span> <span class="o">=</span> <span class="nx">pageHeight</span> <span class="o">-</span> <span class="nx">windowHeight</span><span class="p">;</span> <span class="c1">// 可滚动的高度</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">可滚动的高度：</span><span class="dl">'</span><span class="p">,</span> <span class="nx">scrollAvail</span><span class="p">);</span>
+        <span class="nb">window</span><span class="p">.</span><span class="nx">onscroll</span> <span class="o">=</span> <span class="nf">function </span><span class="p">()</span> <span class="p">{</span>
+            <span class="kd">let</span> <span class="nx">scrollTop</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">documentElement</span><span class="p">.</span><span class="nx">scrollTop</span> <span class="o">||</span> <span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">scrollTop</span><span class="p">;</span>  <span class="c1">// 获取滚动条的高度</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">滚动条的高度：</span><span class="dl">'</span><span class="p">,</span> <span class="nx">scrollTop</span><span class="p">);</span>
+            <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">.progress</span><span class="dl">'</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="p">(</span><span class="nx">scrollTop</span><span class="o">/</span><span class="nx">scrollAvail</span><span class="p">)</span><span class="o">*</span><span class="mi">100</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">%</span><span class="dl">'</span><span class="p">;</span>    <span class="c1">// 计算占比</span>
+        <span class="p">};</span>
+    <span class="p">}());</span>
+<span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div> <p>let关键字：let 声明的变量只是在其声明的块或者子块中可用，这一点，与var相似。二者的主要区别在于var声明的变量的作用域是整个封闭函数，而let声明的作用域是全局或者整个块的。</p> <h3 id="descriptionhtml">Description.html</h3> <p><img src="C:\Users\帅气逼人的闫卡丘\Desktop\闫璟-Wiki考核-3019244290\Description1.PNG" alt=""/></p> <p>这个顶部是用了一个jQuery插件： https://github.com/nk-o/jarallax ，实现了一种背景视觉差滚动特效。</p> <p><img src="C:\Users\帅气逼人的闫卡丘\Desktop\闫璟-Wiki考核-3019244290\Description2.PNG" alt=""/></p> <p>在侧边写了一个小目录，点击某个Part就可以移动到相应的位置。</p> <p><code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>内代码：</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-3 mb-5 pb-5 mr-5"</span> <span class="na">id=</span><span class="s">"navSide"</span><span class="nt">&gt;</span>
+     <span class="nt">&lt;nav</span> <span class="na">id=</span><span class="s">"navbar-example3"</span> <span class="na">class=</span><span class="s">"navbar navbar-light bg-light flex-column position-sticky"</span> <span class="na">style=</span><span class="s">"top: 30%;left: 14%;font-size:110%;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"navbar-brand"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">"../images/标志5.jpg"</span> <span class="na">style=</span><span class="s">"height:30px;"</span><span class="nt">&gt;&lt;/img&gt;</span> Description<span class="nt">&lt;/a&gt;</span>
+             	<span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"nav nav-pills flex-column mt-4"</span><span class="nt">&gt;</span>        
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part1"</span><span class="nt">&gt;</span>Part1<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part2"</span><span class="nt">&gt;</span>Part2<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part3"</span><span class="nt">&gt;</span>Part3<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"nav-link"</span> <span class="na">href=</span><span class="s">"#Part4"</span><span class="nt">&gt;</span>Part4<span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;/nav&gt;</span>
+            <span class="nt">&lt;/nav&gt;</span>
+ 		<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div> <h3 id="学习过程仅供参考qaq">学习过程（仅供参考QAQ）</h3> <p>我先是在</p> <p>上看教程学习，中途也去找了一些视频课程，但感觉老师都比较啰嗦，个人还是觉得直接看教程效率比较高（当然视频会让人更容易理解，老师有的时候会写写实例，也不会特别枯燥）。</p> <p>把HTML和CSS系列教程基本上看完，花了几天时间（期间一边看一边做笔记）。因为离ddl不远了，并且光看教程难以真正掌握，于是决定一边作任务一边学习，再学点js丰富一下网页内容。</p> <p>js也是直接看的网站上的教程。学习写网页时写不出来就去看别的网页的源代码，如IGEM往年的best wiki，还有别人推荐的插件库（虽然好多都没用上，但就多见识见识也挺好）后来因为写任务加练科目二，对js学习就比较落后，所以在自己的网页中用的不多，会在实例中多多学习。</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="web"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry></feed>
