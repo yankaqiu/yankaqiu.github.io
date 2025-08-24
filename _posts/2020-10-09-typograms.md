@@ -1,15 +1,14 @@
 ---
 layout: post
-title: 小菜鸡的网页学习分享（1）
-date: 2021-07-04 17:39:00
+title: 小菜鸡的网页学习记录
+date: 2020-10-09
+description: this is what included typograms code could look like
 tags: web
-description: an example of a blog post with diagrams
-mermaid:
-  enabled: true
-  zoomable: true
+categories: sample-posts
+typograms: true
 ---
 
-# 小菜鸡的网页学习分享（1）
+# 小菜鸡的网页学习记录
 
 我先简单介绍一下我做的两个网页：
 
@@ -138,6 +137,7 @@ mermaid:
 >   2. 通过使用 name 属性 - 创建文档内的书签
 >
 >   超链接可以是一个字，一个词，或者一组词，也可以是一幅图像，您可以点击这些内容来跳转到新的文档或者当前文档中的某个部分。
+>
 
 
 
@@ -280,7 +280,8 @@ CSS选择器（类选择器、ID选择器、可结合）
 
 >  `<span>` 元素是行内元素，能够用作文本的容器。
 >
->  设置 `<span> `元素的类，能够为相同的 `<span> `元素设置相同的样式。
+> 设置 `<span> `元素的类，能够为相同的 `<span> `元素设置相同的样式。
+>
 
 CSS相关代码：
 
