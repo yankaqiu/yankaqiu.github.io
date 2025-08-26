@@ -52,9 +52,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/";
         
       },
-    },{id: "post-the-ethical-basis-of-privacy-protection",
+    },{id: "post-xv6-文件系统手册和代码阅读笔记",
       
-        title: "The Ethical Basis of Privacy Protection",
+        title: "xv6 文件系统手册和代码阅读笔记",
       
       description: "",
       section: "Posts",
