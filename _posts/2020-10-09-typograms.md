@@ -2,7 +2,7 @@
 layout: post
 title: 小菜鸡的网页学习记录
 date: 2020-10-09
-description: this is what included typograms code could look like
+description:
 tags: web
 categories: sample-posts
 typograms: false
