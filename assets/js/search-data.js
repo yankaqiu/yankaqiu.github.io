@@ -67,7 +67,7 @@ ninja.data = [{
       
         title: "小菜鸡的网页学习记录",
       
-      description: "this is what included typograms code could look like",
+      description: "",
       section: "Posts",
       handler: () => {
         
