@@ -4,8 +4,8 @@ title: The Ethical Basis of Privacy Protection
 date: 2025-04-28 15:06:00
 description: 
 tags: privacy
-categories: sample-posts
-citation: true
+categories: 
+citation: false
 ---
 
 # **The Ethical Basis of Privacy Protection**

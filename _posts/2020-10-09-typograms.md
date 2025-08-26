@@ -5,7 +5,7 @@ date: 2020-10-09
 description: this is what included typograms code could look like
 tags: web
 categories: sample-posts
-typograms: true
+typograms: false
 ---
 
 # 小菜鸡的网页学习记录
