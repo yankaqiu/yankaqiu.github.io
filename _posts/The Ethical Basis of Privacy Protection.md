@@ -1,9 +1,9 @@
 ---
 layout: post
 title: The Ethical Basis of Privacy Protection
-date: 2024-04-28 15:06:00
+date: 2025-04-28 15:06:00
 description: 
-tags: formatting citation
+tags: privacy
 categories: sample-posts
 citation: true
 ---
