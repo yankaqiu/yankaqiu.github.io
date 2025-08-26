@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/Resume_Jing_Yan.pdf";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-the-ethical-basis-of-privacy-protection",
       
-        title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: "The Ethical Basis of Privacy Protection",
       
-      description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+          window.location.href = "/blog/2025/The-Ethical-Basis-of-Privacy-Protection/";
         
       },
     },{id: "post-what-has-sports-brought-me",
@@ -52,15 +52,15 @@ ninja.data = [{
           window.location.href = "/blog/2024/%E8%BF%90%E5%8A%A8%E7%BB%99%E6%88%91%E5%B8%A6%E6%9D%A5%E4%BA%86%E4%BB%80%E4%B9%88/";
         
       },
-    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+    },{id: "post-the-ethical-basis-of-privacy-protection",
       
-        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: "The Ethical Basis of Privacy Protection",
       
       description: "",
       section: "Posts",
       handler: () => {
         
-          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+          window.location.href = "/blog/2021/xv6-%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/";
         
       },
     },{id: "post-小菜鸡的网页学习记录",
