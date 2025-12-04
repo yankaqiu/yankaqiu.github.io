@@ -8,7 +8,7 @@ categories: sample-posts
 typograms: false
 ---
 
-# 小菜鸡的网页学习记录
+
 
 我先简单介绍一下我做的两个网页：
 

@@ -8,7 +8,7 @@ categories:
 citation: false
 ---
 
-# **The Ethical Basis of Privacy Protection**
+
 
 It’s been three years, and every time I hear someone say, *“Haven’t we already lost our privacy? What’s the point of struggling anymore?”* I still need to take five seconds to suppress the urge to lecture for two hours.
 
