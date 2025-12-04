@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/Resume_Jing_Yan.pdf";
           },
-        },{id: "post-the-ethical-basis-of-privacy-protection",
+        },{id: "post-if-life-only-matters-with-luck",
+      
+        title: "If Life Only Matters With Luck",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/If-Life-Only-Matters-with-Luck/";
+        
+      },
+    },{id: "post-the-ethical-basis-of-privacy-protection",
       
         title: "The Ethical Basis of Privacy Protection",
       
