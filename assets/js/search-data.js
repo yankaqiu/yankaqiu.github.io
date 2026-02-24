@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/Resume_Jing_Yan.pdf";
           },
-        },{id: "post-if-life-only-matters-with-luck",
+        },{id: "post-my-2025-reading-recap",
+      
+        title: "My 2025 Reading Recap",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/2025-Reading-summary/";
+        
+      },
+    },{id: "post-if-life-only-matters-with-luck",
       
         title: "If Life Only Matters With Luck",
       
