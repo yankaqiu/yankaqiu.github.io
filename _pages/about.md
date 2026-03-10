@@ -18,7 +18,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I’m currently pursuing my Master’s degree at ETH Zurich & EPFL major in CyberSecurity, with a minor in Machine Intelligence. My primary interest lies in the  **AI Security and Privacy**, I’m passionate about exploring how to safeguard systems in an ever-evolving digital landscape. I have a keen interest in exploring how the Universe and Intelligence work and how can we possibly understand them. My long-term goal is to embrace the AGI via fully explainable methods!
+I’m currently pursuing my Master’s degree at ETH Zurich & EPFL major in CyberSecurity, with a minor in Machine Intelligence. My primary interest lies in the  **AI Security and Privacy**, I’m passionate about exploring how to safeguard systems in an ever-evolving digital landscape. 
+
+More broadly, I am curious about how intelligence works—both artificial and natural—and how we can better understand complex systems. I am currently working on my Master’s thesis under the supervision of [Florian Tramèr](https://floriantramer.com). Prior to my Master’s studies, I worked on several software security projects, particularly in compiler security, under the supervision of [Junjie Chen](https://sites.google.com/site/junjiechen08/).
 
 
-Outside of academics, I’m an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **working out**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
+Outside of academics, I’m an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **badminton**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
+
+
+> :mortar_board: **I am actively seeking Ph.D. opportunities for Fall 2026 & Spring 2027.**
+>
+> If you are interested in my work or potential collaborations, please feel free to contact me at [yankaqiu@gmail.com](mailto:yankaqiu@gmail.com).
