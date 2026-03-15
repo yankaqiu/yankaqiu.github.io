@@ -26,6 +26,6 @@ More broadly, I am curious about how intelligence works—both artificial and na
 Outside of academics, I’m an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **badminton**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
 
 
-> :mortar_board: **I am actively seeking Ph.D. opportunities for Fall 2026 & Spring 2027.**
+<!-- > :mortar_board: **I am actively seeking Ph.D. opportunities for Fall 2026 & Spring 2027.**
 >
-> If you are interested in my work or potential collaborations, please feel free to contact me at [yankaqiu@gmail.com](mailto:yankaqiu@gmail.com).
+> If you are interested in my work or potential collaborations, please feel free to contact me at [yankaqiu@gmail.com](mailto:yankaqiu@gmail.com). -->
