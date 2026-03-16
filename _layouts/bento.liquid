@@ -1,0 +1,114 @@
+---
+layout: default
+---
+<div class="bento-page">
+  <div class="bento-grid">
+
+    <!-- Profile Photo Card -->
+    <div class="bento-card bento-photo">
+      {% if page.profile.image %}
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% if page.profile.image_circular %}
+          {% assign profile_image_class = 'img-fluid rounded-circle' %}
+        {% else %}
+          {% assign profile_image_class = 'img-fluid rounded' %}
+        {% endif %}
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
+          cache_bust=true
+        %}
+      {% endif %}
+    </div>
+
+    <!-- About / Intro Card -->
+    <div class="bento-card bento-about">
+      <h1 class="bento-name">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="bento-affiliation">{{ page.subtitle }}</p>
+      <div class="bento-intro">
+        {{ content }}
+      </div>
+    </div>
+
+    <!-- PhD Seeking Card -->
+    {% if page.phd_seeking %}
+    <div class="bento-card bento-phd">
+      <div class="bento-phd-icon">🎓</div>
+      <h3>{{ page.phd_seeking.title }}</h3>
+      <p>{{ page.phd_seeking.description }}</p>
+    </div>
+    {% endif %}
+
+    <!-- Research Card -->
+    {% if page.research %}
+    <div class="bento-card bento-research">
+      <h3>Research Interests</h3>
+      <div class="bento-tags">
+        {% for interest in page.research.interests %}
+          <span class="bento-tag">{{ interest }}</span>
+        {% endfor %}
+      </div>
+      {% if page.research.description %}
+        <p class="bento-research-desc">{{ page.research.description }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- News Card -->
+    {% if page.news and site.announcements.enabled %}
+    <div class="bento-card bento-news">
+      <h3><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h3>
+      {% include news.liquid limit=true %}
+    </div>
+    {% endif %}
+
+    <!-- Hobbies Card -->
+    {% if page.hobbies %}
+    <div class="bento-card bento-hobbies">
+      <h3>Beyond Work</h3>
+      <div class="bento-tags">
+        {% for hobby in page.hobbies %}
+          <span class="bento-tag">{{ hobby }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Social Card -->
+    {% if page.social %}
+    <div class="bento-card bento-social">
+      <h3>Get in Touch</h3>
+      <div class="contact-icons">{% include social.liquid %}</div>
+      {% if site.contact_note %}
+        <div class="contact-note">{{ site.contact_note }}</div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Selected Papers -->
+    {% if page.selected_papers %}
+    <div class="bento-card bento-papers">
+      <h3>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+      </h3>
+      {% include selected_papers.liquid %}
+    </div>
+    {% endif %}
+
+    <!-- Latest Posts -->
+    {% if site.latest_posts.enabled %}
+    <div class="bento-card bento-posts">
+      <h3>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
+      </h3>
+      {% include latest_posts.liquid %}
+    </div>
+    {% endif %}
+
+  </div>
+</div>
