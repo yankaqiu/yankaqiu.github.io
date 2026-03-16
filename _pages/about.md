@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I'm currently pursuing my Master's degree at ETH Zurich & EPFL major in CyberSecurity, with a minor in Machine Intelligence. My primary interest lies in the  **AI Security and Privacy**, I'm passionate about exploring how to safeguard systems in an ever-evolving digital landscape.
 
-More broadly, I am curious about how intelligence works—both artificial and natural—and how we can better understand complex systems. I am currently working on my Master's thesis under the supervision of [Florian Tramèr](https://floriantramer.com). Prior to my Master's studies, I worked on several software security projects, particularly in compiler security, under the supervision of [Junjie Chen](https://sites.google.com/site/junjiechen08/).
+More broadly, I am curious about how intelligence works—both artificial and natural—and how we can better understand complex systems. I am currently working on my Master's thesis under the supervision of [Florian Tramèr](https://floriantramer.com). Also, I'm a member of the Security Deivision at [ETH Robtics Club](https://www.ethrobotics.ch/). Prior to my Master's studies, I worked on several software security projects, particularly in compiler security, under the supervision of [Junjie Chen](https://sites.google.com/site/junjiechen08/).
 
 
 Outside of academics, I'm an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **badminton**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
