@@ -13,9 +13,9 @@ news: true
 selected_papers: false
 social: true
 
-phd_seeking:
-  title: "Actively Seeking Ph.D. Opportunities for Fall 2026 & Spring 2027"
-  description: "If you are interested in my work or potential collaborations, please feel free to contact me at yankaqiu@gmail.com."
+# phd_seeking:
+#   title: "Actively Seeking Ph.D. Opportunities for Fall 2026 & Spring 2027"
+#   description: "If you are interested in my work or potential collaborations, please feel free to contact me at yankaqiu@gmail.com."
 
 taglines:
   - "A Master's student at ETH Zürich & EPFL"

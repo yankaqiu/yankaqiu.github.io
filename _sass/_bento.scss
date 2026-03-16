@@ -6,8 +6,13 @@
 .bento-container {
   position: relative;
   width: 100%;
-  height: calc(100vh - 56px);
+  height: 100vh;
   overflow: hidden;
+}
+
+/* When navbar is fixed, body has padding-top: 56px, so reduce height */
+body.fixed-top-nav .bento-container {
+  height: calc(100vh - 56px);
 }
 
 /* ===== ROWS — absolute, stacked vertically ===== */
