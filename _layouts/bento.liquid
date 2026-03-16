@@ -1,166 +1,185 @@
 <!doctype html>
-<html lang="{{ site.lang }}">
-  <!-- Head -->
-  <head>
-    {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
-      <meta http-equiv="refresh" content="3; url={{ redirect }}">
-    {% endif %}
-    {% include head.liquid %}
-  </head>
+<html lang="{{ site.lang }}" data-theme="light">
+<head>
+  {% include head.liquid %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %}">
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
-    {% include header.liquid %}
+  <!-- Nav -->
+  <nav class="bento-nav">
+    <div class="bento-nav-inner">
+      <a class="bento-nav-brand" href="{{ '/' | relative_url }}">
+        {{ site.first_name }} {{ site.last_name }}
+      </a>
+      <div class="bento-nav-links">
+        <a href="{{ '/' | relative_url }}">About</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+        <button class="bento-theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <span class="toggle-light">☀</span>
+          <span class="toggle-dark">☾</span>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Bento Grid — NO .container wrapper, full viewport -->
-    <div class="bento-container" id="bento-container">
+  <!-- Bento Grid -->
+  <main class="bento-grid">
 
-      <!-- ===== TOP SECTION (Hero | Research) ===== -->
-      <div class="bento-top" id="bento-top">
-        <!-- Hero -->
-        <div class="bento-panel bento-hero" id="panel-hero">
-          <div class="bento-panel-inner" data-animate="content">
-            <p class="bento-greeting">Hi, I am</p>
-            <h1 class="bento-name">
-              {% if site.title == 'blank' %}
-                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-              {% else %}
-                {{ site.title }}
-              {% endif %}
-            </h1>
-            {% if page.taglines %}
-              <div class="bento-taglines" id="bento-taglines">
-                {% for line in page.taglines %}
-                  <span class="bento-tagline">{{ line }}</span>
-                {% endfor %}
-              </div>
-            {% endif %}
-            {% if page.phd_seeking %}
-              <div class="bento-phd-badge">
-                <span>🎓 {{ page.phd_seeking.title }}</span>
-              </div>
-            {% endif %}
+    <!-- 1. Hero Card -->
+    <div class="card card-hero">
+      <div class="card-inner">
+        <div class="hero-top">
+          <div class="hero-avatar">{{ site.first_name | slice: 0 }}{{ site.last_name | slice: 0 }}</div>
+          <div class="hero-identity">
+            <h1 class="hero-name">{{ site.first_name }} {{ site.last_name }}</h1>
+            <p class="hero-tagline">{{ page.tagline }}</p>
           </div>
         </div>
-
-        <!-- Top Vertical Divider -->
-        <div class="bento-divider bento-divider-v" id="div-top-v" data-divider="vertical-top">
-          <div class="bento-divider-line" data-animate="line-v"></div>
+        <div class="hero-badges">
+          {% for badge in page.badges %}
+            <span class="badge badge-{{ badge.style | default: 'default' }}">{{ badge.text }}</span>
+          {% endfor %}
         </div>
-
-        <!-- Research -->
-        {% if page.research %}
-        <div class="bento-panel bento-research" id="panel-research">
-          <div class="bento-panel-inner" data-animate="content">
-            <h3 class="bento-section-title">Research Interests</h3>
-            <div class="bento-skill-list">
-              {% for interest in page.research.interests %}
-                <span class="bento-skill{% if page.research.highlights contains interest %} bento-skill-hl{% endif %}">{{ interest }}</span>
-              {% endfor %}
-            </div>
-            {% if page.research.description %}
-              <p class="bento-research-desc">{{ page.research.description }}</p>
-            {% endif %}
+        <p class="hero-bio">{{ page.bio }}</p>
+        <hr class="hero-rule">
+        {% if site.announcements.enabled %}
+          <div class="hero-news">
+            {% assign sorted_news = site.news | sort: 'date' | reverse %}
+            {% for item in sorted_news limit:1 %}
+              <span class="news-dot"></span>
+              <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+              <span class="news-text">{{ item.content | strip_html | truncate: 120 }}</span>
+            {% endfor %}
           </div>
-        </div>
         {% endif %}
       </div>
-
-      <!-- Main Horizontal Divider -->
-      <div class="bento-divider bento-divider-h" id="div-main-h" data-divider="horizontal-main">
-        <div class="bento-divider-line" data-animate="line-h"></div>
-      </div>
-
-      <!-- ===== MIDDLE SECTION (News | About) ===== -->
-      <div class="bento-middle" id="bento-middle">
-        <!-- News -->
-        {% if page.news and site.announcements.enabled %}
-        <div class="bento-panel bento-news" id="panel-news">
-          <div class="bento-panel-inner" data-animate="content">
-            <h3 class="bento-section-title">
-              <a href="{{ '/news/' | relative_url }}">News</a>
-            </h3>
-            {% include news.liquid limit=true %}
-          </div>
-        </div>
-        {% endif %}
-
-        <!-- Middle Vertical Divider -->
-        <div class="bento-divider bento-divider-v" id="div-mid-v" data-divider="vertical-middle">
-          <div class="bento-divider-line" data-animate="line-v"></div>
-        </div>
-
-        <!-- About -->
-        <div class="bento-panel bento-about" id="panel-about">
-          <div class="bento-panel-inner" data-animate="content">
-            <h3 class="bento-section-title">About Me</h3>
-            <div class="bento-about-content">
-              {% if page.profile.image %}
-                <div class="bento-about-photo">
-                  {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-                  {%
-                    include figure.liquid loading="eager" path=profile_image_path class="img-fluid" alt=page.profile.image
-                    cache_bust=true
-                  %}
-                </div>
-              {% endif %}
-              <div class="bento-about-text">
-                {{ content }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Second Horizontal Divider -->
-      <div class="bento-divider bento-divider-h" id="div-bot-h" data-divider="horizontal-bottom">
-        <div class="bento-divider-line" data-animate="line-h"></div>
-      </div>
-
-      <!-- ===== BOTTOM SECTION (Hobbies | Social) ===== -->
-      <div class="bento-bottom" id="bento-bottom">
-        <!-- Hobbies -->
-        {% if page.hobbies %}
-        <div class="bento-panel bento-hobbies" id="panel-hobbies">
-          <div class="bento-panel-inner" data-animate="content">
-            <h3 class="bento-section-title">Beyond Work</h3>
-            <div class="bento-skill-list">
-              {% for hobby in page.hobbies %}
-                <span class="bento-skill">{{ hobby }}</span>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-        {% endif %}
-
-        <!-- Bottom Vertical Divider -->
-        <div class="bento-divider bento-divider-v" id="div-bot-v" data-divider="vertical-bottom">
-          <div class="bento-divider-line" data-animate="line-v"></div>
-        </div>
-
-        <!-- Social -->
-        {% if page.social %}
-        <div class="bento-panel bento-social" id="panel-social">
-          <div class="bento-panel-inner" data-animate="content">
-            <h3 class="bento-section-title">Get in Touch</h3>
-            <div class="contact-icons">{% include social.liquid %}</div>
-          </div>
-        </div>
-        {% endif %}
-      </div>
-
     </div>
 
-    <!-- JavaScripts -->
-    {% include scripts.liquid %}
-    <script src="{{ '/assets/js/bento.js' | relative_url }}"></script>
-  </body>
+    <!-- 2. Photo Card -->
+    <div class="card card-photo">
+      <div class="card-inner card-photo-inner">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          <img src="{{ profile_image_path | relative_url }}" alt="Profile photo" class="photo-img">
+        {% endif %}
+        <div class="photo-chips">
+          <span class="chip">📍 {{ page.location }}</span>
+          <span class="chip">🎓 {{ page.lab }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Publication Card -->
+    <div class="card card-pub">
+      <div class="card-inner">
+        <span class="card-label">PUBLICATIONS</span>
+        {% for pub in page.publications %}
+          <div class="pub-entry">
+            <div class="pub-badges">
+              <span class="badge badge-green">{{ pub.venue }}</span>
+              {% if pub.award %}
+                <span class="badge badge-amber">{{ pub.award }}</span>
+              {% endif %}
+            </div>
+            <p class="pub-title">{{ pub.title }}</p>
+            <p class="pub-meta">{{ pub.authors }} · {{ pub.venue_full }}</p>
+          </div>
+        {% endfor %}
+        <p class="pub-more">+ more coming</p>
+      </div>
+    </div>
+
+    <!-- 4. Research Tags Card -->
+    <div class="card card-research">
+      <div class="card-inner">
+        <span class="card-label">RESEARCH INTERESTS</span>
+        <div class="tag-cloud">
+          {% for interest in page.research.primary %}
+            <span class="tag tag-primary">{{ interest }}</span>
+          {% endfor %}
+          {% for interest in page.research.secondary %}
+            <span class="tag tag-secondary">{{ interest }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Hobbies Card -->
+    <div class="card card-hobbies">
+      <div class="card-inner">
+        <span class="card-label">BEYOND WORK</span>
+        <div class="hobby-grid">
+          {% for hobby in page.hobbies %}
+            <span class="hobby-chip">{{ hobby }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Social Card -->
+    <div class="card card-social">
+      <div class="card-inner">
+        <span class="card-label">GET IN TOUCH</span>
+        <div class="social-list">
+          {% for link in page.social_links %}
+            <a href="{{ link.url }}" class="social-row" target="_blank" rel="noopener">
+              <span class="social-icon">{{ link.icon }}</span>
+              <span class="social-label">{{ link.label }}</span>
+              <span class="social-arrow">→</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. CV Card -->
+    <div class="card card-cv">
+      <a href="{{ page.cv_path | relative_url }}" target="_blank" class="card-inner card-cv-inner">
+        <span class="cv-icon">📄</span>
+        <span class="cv-title">Download CV</span>
+        <span class="cv-meta">PDF · Updated 2025</span>
+      </a>
+    </div>
+
+    <!-- 8. Supervisor Card -->
+    <div class="card card-supervisor">
+      <div class="card-inner">
+        <span class="card-label">THESIS SUPERVISOR</span>
+        <div class="supervisor-row">
+          <div class="supervisor-avatar">{{ page.supervisor.initials }}</div>
+          <div class="supervisor-info">
+            <span class="supervisor-name">{{ page.supervisor.name }}</span>
+            <span class="supervisor-role">{{ page.supervisor.role }}</span>
+          </div>
+        </div>
+        <a href="{{ page.supervisor.url }}" target="_blank" class="supervisor-link">{{ page.supervisor.url_label }} ↗</a>
+        <p class="supervisor-desc">{{ page.supervisor.description }}</p>
+      </div>
+    </div>
+
+    <!-- 9. Currently Card -->
+    <div class="card card-currently">
+      <div class="card-inner">
+        <span class="card-label">CURRENTLY</span>
+        <div class="status-list">
+          {% for item in page.currently %}
+            <div class="status-row">
+              <span class="status-dot status-{{ item.status }}"></span>
+              <span class="status-text">{{ item.text }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  {% include scripts.liquid %}
+  <script src="{{ '/assets/js/bento.js' | relative_url }}"></script>
+</body>
 </html>

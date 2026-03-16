@@ -2,75 +2,79 @@
 layout: bento
 title: about
 permalink: /
-subtitle: <a href='#'>ETH Zürich</a>. jingyan@ethz.ch.
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false
 
-news: true
-selected_papers: false
-social: true
+tagline: "Master's student · AI Security & Privacy"
+location: "Zürich, Switzerland"
+#cv_path: "assets/pdf/Resume_Jing_Yan.pdf"
 
-# phd_seeking:
-#   title: "Actively Seeking Ph.D. Opportunities for Fall 2026 & Spring 2027"
-#   description: "If you are interested in my work or potential collaborations, please feel free to contact me at yankaqiu@gmail.com."
+bio: >
+  I'm currently pursuing my Master's degree at ETH Zurich & EPFL, majoring in CyberSecurity with a minor in Machine Intelligence.
+  I am curious about how intelligence works—both artificial and natural—and how we can better understand complex systems.
+  My thesis is supervised by Florian Tramèr. Prior to my Master's, I worked on compiler security under Junjie Chen.
 
-taglines:
-  - "A Master's student at ETH Zürich & EPFL"
-  - "An active learner in AI Security & Privacy"
+badges:
+  - text: "ETH Zürich"
+    style: eth
+  - text: "EPFL"
+    style: epfl
+  - text: "CyberSecurity MSc"
+    style: default
+
+publications:
+  - title: "RLCP: A Reinforcement Learning-based Copyright Protection Method for Text-to-Image Diffusion Model"
+    venue: "ICME 2025"
+    award: "Oral Presentation"
+    authors: "Jing Yan et al."
+    venue_full: "IEEE ICME 2025"
 
 research:
-  interests:
+  primary:
     - AI Security
     - Privacy
-    - Multimodal Reasoning
-    - Software Security
-    - Compiler Security
-  highlights:
-    - AI Security
-    - Privacy
-  description: "Exploring how to safeguard AI systems in an ever-evolving digital landscape."
+  secondary:
+    - Copyright Protection
+    - Robtics Security
+
 
 hobbies:
-  - Bouldering
-  - Hiphop Dancing
-  - Badminton
-  - Swimming
-  - Reading
-  - Movies
----
+  - "🧗 Bouldering"
+  - "💃 Hiphop"
+  - "🏸 Badminton"
+  - "🏊 Swimming"
+  - "📚 Reading"
+  - "🎬 Movies"
 
-I'm currently pursuing my Master's degree at ETH Zurich & EPFL major in CyberSecurity, with a minor in Machine Intelligence.
+social_links:
+  - icon: "✉"
+    label: "jingyan@ethz.ch"
+    url: "mailto:jingyan@ethz.ch"
+  - icon: "🐙"
+    label: "GitHub — yankaqiu"
+    url: "https://github.com/yankaqiu"
+  - icon: "🔗"
+    label: "LinkedIn"
+    url: "https://linkedin.com/in/jing-yan"
 
-More broadly, I am curious about how intelligence works—both artificial and natural—and how we can better understand complex systems. I am currently working on my Master's thesis under the supervision of [Florian Tramèr](https://floriantramer.com). Prior to my Master's studies, I worked on several software security projects, particularly in compiler security, under the supervision of [Junjie Chen](https://sites.google.com/site/junjiechen08/).
+supervisor:
+  name: "Florian Tramèr"
+  initials: "FT"
+  role: "Associate Professor, ETH Zürich"
+  url: "https://floriantramer.com"
+  url_label: "floriantramer.com"
+  description: "Working on adversarial ML, privacy, and AI security."
 
-<!-- OLD LAYOUT (switch back by changing layout: bento to layout: about)
----
-layout: about
-title: about
-permalink: /
-subtitle: <a href='#'>ETH Zürich</a>. jingyan@ethz.ch.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p></p>
-    <p>yankaqiu@gmail.com</p>
-    <p>Zürich</p>
+currently:
+  - status: green
+    text: "Writing master's thesis — adversarial robustness / AI security"
+  - status: amber
+    text: "Preparing ICME 2025 oral presentation"
+  - status: muted
+    text: "Exploring PhD opportunities in AI security"
 
 news: true
 selected_papers: false
 social: true
 ---
-
-I'm currently pursuing my Master's degree at ETH Zurich & EPFL major in CyberSecurity, with a minor in Machine Intelligence. My primary interest lies in the  **AI Security and Privacy**, I'm passionate about exploring how to safeguard systems in an ever-evolving digital landscape.
-
-More broadly, I am curious about how intelligence works—both artificial and natural—and how we can better understand complex systems. I am currently working on my Master's thesis under the supervision of [Florian Tramèr](https://floriantramer.com). Prior to my Master's studies, I worked on several software security projects, particularly in compiler security, under the supervision of [Junjie Chen](https://sites.google.com/site/junjiechen08/).
-
-
-Outside of academics, I'm an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **badminton**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
--->
