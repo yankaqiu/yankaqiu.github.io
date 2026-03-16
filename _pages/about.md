@@ -17,6 +17,10 @@ phd_seeking:
   title: "Actively Seeking Ph.D. Opportunities for Fall 2026 & Spring 2027"
   description: "If you are interested in my work or potential collaborations, please feel free to contact me at yankaqiu@gmail.com."
 
+taglines:
+  - "A Master's student at ETH Zürich & EPFL"
+  - "An active learner in AI Security & Privacy"
+
 research:
   interests:
     - AI Security
@@ -24,6 +28,9 @@ research:
     - Multimodal Reasoning
     - Software Security
     - Compiler Security
+  highlights:
+    - AI Security
+    - Privacy
   description: "Exploring how to safeguard AI systems in an ever-evolving digital landscape."
 
 hobbies:

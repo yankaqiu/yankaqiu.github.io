@@ -1,114 +1,145 @@
 ---
 layout: default
 ---
-<div class="bento-page">
-  <div class="bento-grid">
+<div class="bento-container" id="bento-container">
 
-    <!-- Profile Photo Card -->
-    <div class="bento-card bento-photo">
-      {% if page.profile.image %}
-        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-        {% if page.profile.image_circular %}
-          {% assign profile_image_class = 'img-fluid rounded-circle' %}
-        {% else %}
-          {% assign profile_image_class = 'img-fluid rounded' %}
+  <!-- ===== TOP SECTION (Hero | Research) ===== -->
+  <div class="bento-top" id="bento-top">
+    <!-- Hero -->
+    <div class="bento-panel bento-hero" id="panel-hero">
+      <div class="bento-panel-inner" data-animate="content">
+        <p class="bento-greeting">Hi, I am</p>
+        <h1 class="bento-name">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        {% if page.taglines %}
+          <div class="bento-taglines" id="bento-taglines">
+            {% for line in page.taglines %}
+              <span class="bento-tagline">{{ line }}</span>
+            {% endfor %}
+          </div>
         {% endif %}
-        {%
-          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
-          cache_bust=true
-        %}
-      {% endif %}
-    </div>
-
-    <!-- About / Intro Card -->
-    <div class="bento-card bento-about">
-      <h1 class="bento-name">
-        {% if site.title == 'blank' %}
-          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-        {% else %}
-          {{ site.title }}
+        {% if page.phd_seeking %}
+          <div class="bento-phd-badge">
+            <span>🎓 {{ page.phd_seeking.title }}</span>
+          </div>
         {% endif %}
-      </h1>
-      <p class="bento-affiliation">{{ page.subtitle }}</p>
-      <div class="bento-intro">
-        {{ content }}
       </div>
     </div>
 
-    <!-- PhD Seeking Card -->
-    {% if page.phd_seeking %}
-    <div class="bento-card bento-phd">
-      <div class="bento-phd-icon">🎓</div>
-      <h3>{{ page.phd_seeking.title }}</h3>
-      <p>{{ page.phd_seeking.description }}</p>
+    <!-- Top Vertical Divider -->
+    <div class="bento-divider bento-divider-v" id="div-top-v" data-divider="vertical-top">
+      <div class="bento-divider-line" data-animate="line-v"></div>
     </div>
-    {% endif %}
 
-    <!-- Research Card -->
+    <!-- Research -->
     {% if page.research %}
-    <div class="bento-card bento-research">
-      <h3>Research Interests</h3>
-      <div class="bento-tags">
-        {% for interest in page.research.interests %}
-          <span class="bento-tag">{{ interest }}</span>
-        {% endfor %}
-      </div>
-      {% if page.research.description %}
-        <p class="bento-research-desc">{{ page.research.description }}</p>
-      {% endif %}
-    </div>
-    {% endif %}
-
-    <!-- News Card -->
-    {% if page.news and site.announcements.enabled %}
-    <div class="bento-card bento-news">
-      <h3><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h3>
-      {% include news.liquid limit=true %}
-    </div>
-    {% endif %}
-
-    <!-- Hobbies Card -->
-    {% if page.hobbies %}
-    <div class="bento-card bento-hobbies">
-      <h3>Beyond Work</h3>
-      <div class="bento-tags">
-        {% for hobby in page.hobbies %}
-          <span class="bento-tag">{{ hobby }}</span>
-        {% endfor %}
+    <div class="bento-panel bento-research" id="panel-research">
+      <div class="bento-panel-inner" data-animate="content">
+        <h3 class="bento-section-title">Research Interests</h3>
+        <div class="bento-skill-list">
+          {% for interest in page.research.interests %}
+            <span class="bento-skill{% if page.research.highlights contains interest %} bento-skill-hl{% endif %}">{{ interest }}</span>
+          {% endfor %}
+        </div>
+        {% if page.research.description %}
+          <p class="bento-research-desc">{{ page.research.description }}</p>
+        {% endif %}
       </div>
     </div>
     {% endif %}
-
-    <!-- Social Card -->
-    {% if page.social %}
-    <div class="bento-card bento-social">
-      <h3>Get in Touch</h3>
-      <div class="contact-icons">{% include social.liquid %}</div>
-      {% if site.contact_note %}
-        <div class="contact-note">{{ site.contact_note }}</div>
-      {% endif %}
-    </div>
-    {% endif %}
-
-    <!-- Selected Papers -->
-    {% if page.selected_papers %}
-    <div class="bento-card bento-papers">
-      <h3>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h3>
-      {% include selected_papers.liquid %}
-    </div>
-    {% endif %}
-
-    <!-- Latest Posts -->
-    {% if site.latest_posts.enabled %}
-    <div class="bento-card bento-posts">
-      <h3>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
-      </h3>
-      {% include latest_posts.liquid %}
-    </div>
-    {% endif %}
-
   </div>
+
+  <!-- Main Horizontal Divider -->
+  <div class="bento-divider bento-divider-h" id="div-main-h" data-divider="horizontal-main">
+    <div class="bento-divider-line" data-animate="line-h"></div>
+  </div>
+
+  <!-- ===== MIDDLE SECTION (News | About) ===== -->
+  <div class="bento-middle" id="bento-middle">
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+    <div class="bento-panel bento-news" id="panel-news">
+      <div class="bento-panel-inner" data-animate="content">
+        <h3 class="bento-section-title">
+          <a href="{{ '/news/' | relative_url }}">News</a>
+        </h3>
+        {% include news.liquid limit=true %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Middle Vertical Divider -->
+    <div class="bento-divider bento-divider-v" id="div-mid-v" data-divider="vertical-middle">
+      <div class="bento-divider-line" data-animate="line-v"></div>
+    </div>
+
+    <!-- About -->
+    <div class="bento-panel bento-about" id="panel-about">
+      <div class="bento-panel-inner" data-animate="content">
+        <h3 class="bento-section-title">About Me</h3>
+        <div class="bento-about-content">
+          {% if page.profile.image %}
+            <div class="bento-about-photo">
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class="img-fluid" alt=page.profile.image
+                cache_bust=true
+              %}
+            </div>
+          {% endif %}
+          <div class="bento-about-text">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Horizontal Divider -->
+  <div class="bento-divider bento-divider-h" id="div-bot-h" data-divider="horizontal-bottom">
+    <div class="bento-divider-line" data-animate="line-h"></div>
+  </div>
+
+  <!-- ===== BOTTOM SECTION (Hobbies | Social) ===== -->
+  <div class="bento-bottom" id="bento-bottom">
+    <!-- Hobbies -->
+    {% if page.hobbies %}
+    <div class="bento-panel bento-hobbies" id="panel-hobbies">
+      <div class="bento-panel-inner" data-animate="content">
+        <h3 class="bento-section-title">Beyond Work</h3>
+        <div class="bento-skill-list">
+          {% for hobby in page.hobbies %}
+            <span class="bento-skill">{{ hobby }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Bottom Vertical Divider -->
+    <div class="bento-divider bento-divider-v" id="div-bot-v" data-divider="vertical-bottom">
+      <div class="bento-divider-line" data-animate="line-v"></div>
+    </div>
+
+    <!-- Social -->
+    {% if page.social %}
+    <div class="bento-panel bento-social" id="panel-social">
+      <div class="bento-panel-inner" data-animate="content">
+        <h3 class="bento-section-title">Get in Touch</h3>
+        <div class="contact-icons">{% include social.liquid %}</div>
+        {% if page.phd_seeking.description %}
+          <p class="bento-contact-note">{{ page.phd_seeking.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
 </div>
+
+<script src="{{ '/assets/js/bento.js' | relative_url }}" defer></script>
