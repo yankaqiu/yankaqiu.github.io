@@ -25,7 +25,7 @@ More broadly, I am curious about how intelligence works—both artificial and na
 
 Outside of academics, I'm an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **badminton**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
 
----
+<hr>
 
 ## Misc
 
@@ -55,7 +55,7 @@ Outside of academics, I'm an avid sports enthusiast. I enjoy **bouldering**, **h
 
 <!--
 ===== BENTO LAYOUT (change layout: about to layout: bento and uncomment below) =====
----
+~ ~ ~
 layout: bento
 title: about
 permalink: /
@@ -131,5 +131,5 @@ currently:
 news: true
 selected_papers: false
 social: true
----
+~ ~ ~
 -->
