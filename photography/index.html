@@ -1,0 +1,190 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> photography | Jing Yan </title> <meta name="author" content="Jing Yan"> <meta name="description" content="A collection of moments from my travels. 📷"> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/icon2.png?f1b961df0ca374f3f9490b3931fd8ccb"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://yankaqiu.github.io/photography/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Jing</span> Yan </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/assets/pdf/Resume_Jing_Yan.pdf">cv </a> </li> <li class="nav-item active"> <a class="nav-link" href="/photography/">photography <span class="sr-only">(current)</span> </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">photography</h1> <p class="post-description">A collection of moments from my travels. 📷</p> </header> <article> <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script> <style>#travel-map{width:100%;height:480px;border-radius:12px;border:1px solid var(--global-divider-color,#e0e0e0);margin-bottom:1.5rem;z-index:1}.marker-pin{width:14px;height:14px;border-radius:50%;background:#1d6be5;border:2.5px solid #fff;box-shadow:0 0 0 2px rgba(29,107,229,0.3),0 2px 8px rgba(0,0,0,0.15);cursor:pointer;transition:transform .2s,box-shadow .2s}.marker-pin:hover{transform:scale(1.4);box-shadow:0 0 0 4px rgba(29,107,229,0.25),0 4px 12px rgba(0,0,0,0.2)}.marker-pin.active{background:#e74c3c;box-shadow:0 0 0 3px rgba(231,76,60,0.3),0 2px 8px rgba(0,0,0,0.15)}.location-label{font-size:11px;font-weight:600;color:#333;background:rgba(255,255,255,0.9);padding:2px 6px;border-radius:4px;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.1);pointer-events:none}.gallery-section{opacity:0;transform:translateY(20px);transition:opacity .4s ease,transform .4s ease}.gallery-section.visible{opacity:1;transform:translateY(0)}.gallery-header{display:flex;align-items:center;gap:10px;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid #1d6be5}.gallery-header h2{margin:0;font-size:1.4rem}.gallery-header .loc-badge{font-size:.75rem;background:#ebf2fd;color:#1d6be5;padding:2px 10px;border-radius:20px;font-weight:500}.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:2rem}.gallery-grid img{width:100%;height:200px;object-fit:cover;border-radius:10px;cursor:pointer;transition:transform .25s ease,box-shadow .25s ease;border:1px solid var(--global-divider-color,#e0e0e0)}.gallery-grid img:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,0.12)}.photo-lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;cursor:zoom-out;backdrop-filter:blur(4px)}.photo-lightbox.open{display:flex}.photo-lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;box-shadow:0 0 40px rgba(0,0,0,0.4)}.map-hint{text-align:center;color:#6b6b67;font-size:.85rem;margin-top:-0.5rem;margin-bottom:1.5rem}.travel-stats{display:flex;gap:24px;justify-content:center;margin-bottom:1.5rem;flex-wrap:wrap}.travel-stats .stat{text-align:center}.travel-stats .stat-num{font-size:1.5rem;font-weight:700;color:#1d6be5}.travel-stats .stat-label{font-size:.75rem;color:#6b6b67;text-transform:uppercase;letter-spacing:.5px}</style> <div class="travel-stats"> <div class="stat"> <div class="stat-num" id="stat-places">0</div> <div class="stat-label">Places</div> </div> <div class="stat"> <div class="stat-num" id="stat-countries">0</div> <div class="stat-label">Countries</div> </div> <div class="stat"> <div class="stat-num" id="stat-photos">0</div> <div class="stat-label">Photos</div> </div> </div> <div id="travel-map"></div> <p class="map-hint">Click a pin on the map to view photos from that location</p> <div id="gallery-container"></div> <div class="photo-lightbox" id="lightbox"> <img src="" alt="Full size photo" id="lightbox-img"> </div> <script>
+document.addEventListener('DOMContentLoaded', function () {
+  // ════════════════════════════════════════════════
+  // 📍 TRAVEL DATA — Edit this to add your locations & photos!
+  //
+  // Each location needs:
+  //   name:    Display name
+  //   coords:  [latitude, longitude]
+  //   country: Country name (for stats)
+  //   date:    When you visited (optional)
+  //   photos:  Array of image paths (relative to site root)
+  //
+  // To add a new location:
+  //   1. Add your photos to assets/img/photography/<city>/
+  //   2. Add an entry below
+  // ════════════════════════════════════════════════
+  var locations = [
+    {
+      name: 'Zürich',
+      coords: [47.3769, 8.5417],
+      country: 'Switzerland',
+      date: '2024 — present',
+      photos: [
+        '/assets/img/1.jpg',
+        '/assets/img/2.jpg',
+        '/assets/img/3.jpg',
+      ]
+    },
+    {
+      name: 'Lausanne',
+      coords: [46.5197, 6.6323],
+      country: 'Switzerland',
+      date: '2024',
+      photos: [
+        '/assets/img/4.jpg',
+        '/assets/img/5.jpg',
+        '/assets/img/6.jpg',
+      ]
+    },
+    {
+      name: 'Paris',
+      coords: [48.8566, 2.3522],
+      country: 'France',
+      date: '2024',
+      photos: [
+        '/assets/img/7.jpg',
+        '/assets/img/8.jpg',
+      ]
+    },
+    {
+      name: 'Interlaken',
+      coords: [46.6863, 7.8632],
+      country: 'Switzerland',
+      date: '2024',
+      photos: [
+        '/assets/img/9.jpg',
+        '/assets/img/10.jpg',
+        '/assets/img/11.jpg',
+      ]
+    },
+    // ── Add more locations below ──
+    // {
+    //   name: 'Tokyo',
+    //   coords: [35.6762, 139.6503],
+    //   country: 'Japan',
+    //   date: '2025',
+    //   photos: [
+    //     '/assets/img/photography/tokyo/1.jpg',
+    //   ]
+    // },
+  ];
+
+  // ── Stats ──
+  var countries = new Set(locations.map(function(l) { return l.country; }));
+  var totalPhotos = locations.reduce(function(sum, l) { return sum + l.photos.length; }, 0);
+  document.getElementById('stat-places').textContent = locations.length;
+  document.getElementById('stat-countries').textContent = countries.size;
+  document.getElementById('stat-photos').textContent = totalPhotos;
+
+  // ── Map ──
+  var map = L.map('travel-map', {
+    scrollWheelZoom: false,
+    zoomControl: true,
+  }).setView([35, 10], 3);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    maxZoom: 19,
+  }).addTo(map);
+
+  var activeMarker = null;
+  var markers = [];
+
+  // ── Create markers ──
+  locations.forEach(function (loc, idx) {
+    var icon = L.divIcon({
+      className: '',
+      html: '<div class="marker-pin" data-idx="' + idx + '"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+    });
+
+    var marker = L.marker(loc.coords, { icon: icon }).addTo(map);
+
+    // Label tooltip
+    marker.bindTooltip(loc.name, {
+      permanent: false,
+      direction: 'top',
+      offset: [0, -10],
+      className: 'location-label',
+    });
+
+    marker.on('click', function () {
+      // Deactivate previous
+      if (activeMarker !== null) {
+        var prevPin = document.querySelector('.marker-pin.active');
+        if (prevPin) prevPin.classList.remove('active');
+      }
+      // Activate current
+      var pin = marker.getElement().querySelector('.marker-pin');
+      if (pin) pin.classList.add('active');
+      activeMarker = idx;
+
+      map.flyTo(loc.coords, 6, { duration: 0.8 });
+      showGallery(loc);
+    });
+
+    markers.push(marker);
+  });
+
+  // Fit all markers
+  if (markers.length > 0) {
+    var group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.3));
+  }
+
+  // ── Gallery ──
+  function showGallery(loc) {
+    var container = document.getElementById('gallery-container');
+    container.innerHTML = '';
+
+    var section = document.createElement('div');
+    section.className = 'gallery-section';
+
+    var header = '<div class="gallery-header">' +
+      '<h2>' + loc.name + '</h2>' +
+      '<span class="loc-badge">' + loc.country + '</span>' +
+      (loc.date ? '<span class="loc-badge">' + loc.date + '</span>' : '') +
+      '</div>';
+
+    var grid = '<div class="gallery-grid">';
+    loc.photos.forEach(function (src) {
+      grid += '<img src="' + src + '" alt="Photo from ' + loc.name + '" loading="lazy" onclick="openLightbox(this.src)" />';
+    });
+    grid += '</div>';
+
+    section.innerHTML = header + grid;
+    container.appendChild(section);
+
+    // Trigger animation
+    requestAnimationFrame(function () {
+      section.classList.add('visible');
+    });
+
+    // Scroll to gallery
+    container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // ── Lightbox ──
+  window.openLightbox = function (src) {
+    var lb = document.getElementById('lightbox');
+    document.getElementById('lightbox-img').src = src;
+    lb.classList.add('open');
+  };
+
+  document.getElementById('lightbox').addEventListener('click', function () {
+    this.classList.remove('open');
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.getElementById('lightbox').classList.remove('open');
+    }
+  });
+});
+</script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jing Yan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?70d799092f862ad98c7876aa47712e20"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>

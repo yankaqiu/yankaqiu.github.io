@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/Resume_Jing_Yan.pdf";
           },
+        },{id: "nav-photography",
+          title: "photography",
+          description: "A collection of moments from my travels. 📷",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/photography/";
+          },
         },{id: "post-my-2025-reading-recap",
       
         title: "My 2025 Reading Recap",
