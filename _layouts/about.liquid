@@ -49,20 +49,31 @@ layout: default
     {% endif %}
 
     <!-- Misc -->
-    <hr>
     <h2>misc</h2>
-    <ul>
-      <li><strong>Bouldering</strong> — I picked up bouldering in Zurich and got completely hooked. There's something meditative about solving problems with your body. (I also broke my leg doing it, but that's a story for another day...)</li>
-      <li><strong>Hiphop Dancing</strong> — My go-to way to decompress. I've been dancing since undergrad.</li>
-      <li><strong>Badminton</strong> — Played competitively back in China; now mostly just for fun with friends.</li>
-      <li><strong>Swimming</strong> — My calm-down sport. My mom is way better at it though.</li>
-      <li><strong>Reading</strong> — Big fan of all kinds of fiction. I have a strange habit of never leaving a bookstore empty-handed. Always open to recommendations!</li>
-      <li><strong>Music</strong> — My taste shifts with my mood — sometimes rock, sometimes folk. I play the guzheng and am self-teaching guitar.</li>
-      <li><strong>Movies</strong> — I watch everything from arthouse to Marvel. No judgment.</li>
-    </ul>
-
-    <div style="margin-top: 1.5rem; display: flex; justify-content: center;">
-      <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=0IWeV8E1vYNN5UYhQqlUZgrdmvSwf-72qZQyusWuv8U&co=cee0d1&cmn=319831&cmo=c6d133&ct=ffffff'></script>
+    <style>
+      .misc-wrapper { display: flex; gap: 2rem; align-items: flex-start; }
+      .misc-list { list-style: none; padding-left: 0; flex: 1; }
+      .misc-list li { padding-left: 1.5em; position: relative; margin-bottom: 0.4em; }
+      .misc-list li::before { content: '⭐'; position: absolute; left: 0; }
+      .misc-map { flex-shrink: 0; width: 200px; }
+      @media (max-width: 768px) {
+        .misc-wrapper { flex-direction: column; }
+        .misc-map { width: 100%; display: flex; justify-content: center; }
+      }
+    </style>
+    <div class="misc-wrapper">
+      <ul class="misc-list">
+        <li><strong>Bouldering</strong> — I picked up bouldering in Zurich and got completely hooked. There's something meditative about solving problems with your body. (I also broke my leg doing it, but that's a story for another day...)</li>
+        <li><strong>Hiphop Dancing</strong> — My go-to way to decompress. I've been dancing since undergrad.</li>
+        <li><strong>Badminton</strong> — Played competitively back in China; now mostly just for fun with friends.</li>
+        <li><strong>Swimming</strong> — My calm-down sport. My mom is way better at it though.</li>
+        <li><strong>Reading</strong> — Big fan of all kinds of fiction. I have a strange habit of never leaving a bookstore empty-handed. Always open to recommendations!</li>
+        <li><strong>Music</strong> — My taste shifts with my mood — sometimes rock, sometimes folk. I play the guzheng and am self-teaching guitar.</li>
+        <li><strong>Movies</strong> — I watch everything from arthouse to Marvel. No judgment.</li>
+      </ul>
+      <div class="misc-map">
+        <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=8bb298&w=200&t=n&d=0IWeV8E1vYNN5UYhQqlUZgrdmvSwf-72qZQyusWuv8U&co=d7e5ff&ct=ffffff&cmo=e8f717&cmn=319831"></script>
+      </div>
     </div>
 
     <!-- Latest posts -->
