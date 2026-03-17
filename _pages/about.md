@@ -34,6 +34,7 @@ Outside of academics, I'm an avid sports enthusiast. I enjoy **bouldering**, **h
 - **Badminton** — Played competitively back in China; now mostly just for fun with friends.
 - **Swimming** — My calm-down sport. My mom is way better at it though.
 - **Reading** — Big fan of all kinds of fiction. I have a strange habit of never leaving a bookstore empty-handed. Always open to recommendations!
+- **Music** — My taste shifts with my mood — sometimes rock, sometimes folk. I play the guzheng and am self-teaching guitar.
 - **Movies** — I watch everything from arthouse to Marvel. No judgment.
 
 <div class="clustrmaps-widget">
