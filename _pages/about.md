@@ -25,6 +25,28 @@ More broadly, I am curious about how intelligence works—both artificial and na
 
 Outside of academics, I'm an avid sports enthusiast. I enjoy **bouldering**, **hiphop dancing**, **badminton**, and **swimming**, and I also love reading and watching movies. I try to write silly posts and some techinical staff here. :)
 
+---
+
+## Misc
+
+- **Bouldering** — I picked up bouldering in Zurich and got completely hooked. There's something meditative about solving problems with your body. (I also broke my leg doing it, but that's a story for another day...)
+- **Hiphop Dancing** — My go-to way to decompress. I've been dancing since undergrad.
+- **Badminton** — Played competitively back in China; now mostly just for fun with friends.
+- **Swimming** — My calm-down sport. My mom is way better at it though.
+- **Reading** — Big fan of all kinds of fiction. I have a strange habit of never leaving a bookstore empty-handed. Always open to recommendations!
+- **Movies** — I watch everything from arthouse to Marvel. No judgment.
+
+<div class="clustrmaps-widget">
+  <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=YOUR_CLUSTRMAPS_ID&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+</div>
+
+<style>
+.clustrmaps-widget {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+</style>
 
 <!-- > :mortar_board: **I am actively seeking Ph.D. opportunities for Fall 2026 & Spring 2027.**
 >

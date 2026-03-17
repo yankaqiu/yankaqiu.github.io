@@ -272,6 +272,33 @@ document.addEventListener('DOMContentLoaded', function () {
         '{{ site.baseurl }}/assets/img/tianjin/DSCF0837.JPG',
       ]
     },
+    {
+      name: 'Florence',
+      coords: [43.7696, 11.2558],
+      country: 'Italy',
+      date: '',
+      photos: [
+        // '{{ site.baseurl }}/assets/img/florence/1.jpg',
+      ]
+    },
+    {
+      name: 'Milan',
+      coords: [45.4642, 9.1900],
+      country: 'Italy',
+      date: '',
+      photos: [
+        // '{{ site.baseurl }}/assets/img/milan/1.jpg',
+      ]
+    },
+    {
+      name: 'Rome',
+      coords: [41.9028, 12.4964],
+      country: 'Italy',
+      date: '',
+      photos: [
+        // '{{ site.baseurl }}/assets/img/rome/1.jpg',
+      ]
+    },
     // ── Add more locations below ──
   ];
 
