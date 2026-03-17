@@ -205,9 +205,8 @@ document.addEventListener('DOMContentLoaded', function () {
       country: 'Switzerland',
       date: '2024 — present',
       photos: [
-        '{{ site.baseurl }}/assets/img/1.jpg',
-        '{{ site.baseurl }}/assets/img/2.jpg',
-        '{{ site.baseurl }}/assets/img/3.jpg',
+        '{{ site.baseurl }}/assets/zurich/DSCF7732.JPG',
+        '{{ site.baseurl }}/assets/zurich/DSCF7777.JPG',
       ]
     },
     {
@@ -242,16 +241,38 @@ document.addEventListener('DOMContentLoaded', function () {
         '{{ site.baseurl }}/assets/img/11.jpg',
       ]
     },
+    {
+      name: 'Calgary',
+      coords: [51.0447, -114.0719],
+      country: 'Canada',
+      date: '',
+      photos: [
+        // Add your Calgary photos here, e.g.:
+        '{{ site.baseurl }}/assets/img/Calgary/WechatIMG77.jpeg',
+      ]
+    },
+    {
+      name: 'Jasper',
+      coords: [52.8737, -117.9545],
+      country: 'Canada',
+      date: '',
+      photos: [
+        '{{ site.baseurl }}/assets/img/jasper/DSCF2578.JPG',
+        '{{ site.baseurl }}/assets/img/jasper/DSCF2584.JPG',
+        '{{ site.baseurl }}/assets/img/jasper/DSCF2588.JPG',
+      ]
+    },
+    {
+      name: 'Tianjin',
+      coords: [39.3434, 117.3616],
+      country: 'China',
+      date: '',
+      photos: [
+        // Add your Tianjin photos here, e.g.:
+        '{{ site.baseurl }}/assets/img/tianjin/DSCF0837.JPG',
+      ]
+    },
     // ── Add more locations below ──
-    // {
-    //   name: 'Tokyo',
-    //   coords: [35.6762, 139.6503],
-    //   country: 'Japan',
-    //   date: '2025',
-    //   photos: [
-    //     '{{ site.baseurl }}/assets/img/photography/tokyo/1.jpg',
-    //   ]
-    // },
   ];
 
   // ── Stats ──
