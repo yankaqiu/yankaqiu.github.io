@@ -106,7 +106,7 @@ ninja.data = [{
     },{id: "news-accepted-by-icme2025-rlcp-a-reinforcement-learning-based-copyright-protection-method-for-text-to-image-diffusion-model-i-ll-be-giving-an-oral-presentation-at-the-conference",
           title: '[Accepted by ICME2025] RLCP: A Reinforcement Learning-based Copyright Protection Method for Text-to-Image Diffusion...',
           description: "",
-          section: "News",},{id: "news-selected-as-a-fellow-for-the-2026-singapore-ai-safety-fellowship-in-singapore-5-acceptance-rate",
+          section: "News",},{id: "news-selected-as-a-fellow-for-the-2026-singapore-ai-safety-fellowship-in-singapore-less-than-5-acceptance-rate",
           title: 'Selected as a fellow for the 2026 Singapore AI Safety Fellowship in Singapore...',
           description: "",
           section: "News",},{id: "projects-project-1",
