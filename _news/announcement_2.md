@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Selected as a fellow for the 2026 Singapore AI Safety Fellowship in Singapore.
+Selected as a fellow for the 2026 Singapore AI Safety Fellowship in Singapore (5% acceptance rate).
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
